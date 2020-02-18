@@ -690,17 +690,17 @@ Xem thêm:
 
 - [The Pragmatic Developer](https://en.wikipedia.org/wiki/The_Pragmatic_Programmer)
 
-### The KISS principle
+### Nguyên tắc KISS
 
-[KISS on Wikipedia](https://en.wikipedia.org/wiki/KISS_principle)
+[KISS xem tại Wikipedia](https://en.wikipedia.org/wiki/KISS_principle)
 
 > Keep it simple, stupid
 
-The KISS principle states that most systems work best if they are kept simple rather than made complicated; therefore, simplicity should be a key goal in design, and unnecessary complexity should be avoided.  Originating in the U.S. Navy in 1960, the phrase has been associated with aircraft engineer Kelly Johnson.
+Nguyên tắc KISS chỉ ra rằng hầu hết các hệ thống hoạt động tốt nhất nếu nó được giữ đơn giản thay vì bị phức tạp hoá; vì vậy, tính đơn giản nên là một mục tiêu chính trong thiết kế, và sự phức tạp không cần thiết nên được tránh. Bắt nguồn từ Hải quân Mỹ (U.S Navy) năm 1960, nguyên tắc này đã được gắn liền với tên tuổi của kỹ sư hàng không Kelly Johnson.
 
-The principle is best exemplified by the story of Johnson handing a team of design engineers a handful of tools, with the challenge that the jet aircraft they were designing must be repairable by an average mechanic in the field under combat conditions with only these tools. Hence, the "stupid" refers to the relationship between the way things break and the sophistication of the tools available to repair them, not the capabilities of the engineers themselves. 
+Nguyên tắc này được minh họa rõ nhất qua câu chuyện Johnson trao cho một nhóm kỹ sư thiết kế một số ít các công cụ, với thách thức là máy bay phản lực mà họ đang thiết kế phải có khả năng sửa chữa được bởi một thợ máy trung bình trong điều kiện chiến đấu mà chỉ bằng những công cụ này. Do đó, "stupid" chỉ mối quan hệ giữa cách mọi thứ bị phá vỡ và sự phức tạp của các công cụ có sẵn để sửa chữa chúng, chứ không phải với khả năng của các kỹ sư.
 
-See also:
+Xem thêm::
 
 - [Gall's Law](#galls-law)
 
