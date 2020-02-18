@@ -14,7 +14,7 @@ Tài liệu được dịch từ bản gốc của [Dave Kerr](https://github.co
   - [Giới thiệu](#gi%e1%bb%9bi-thi%e1%bb%87u)
   - [Các định luật](#c%c3%a1c-%c4%91%e1%bb%8bnh-lu%e1%ba%adt)
     - [Luật Amdahl](#lu%e1%ba%adt-amdahl)
-    - [The Broken Windows Theory](#the-broken-windows-theory)
+    - [Lý thuyết Cửa sổ vỡ](#l%c3%bd-thuy%e1%ba%bft-c%e1%bb%ada-s%e1%bb%95-v%e1%bb%a1)
     - [Brooks' Law](#brooks-law)
     - [Conway's Law](#conways-law)
     - [Cunningham's Law](#cunninghams-law)
@@ -65,9 +65,9 @@ Tài liệu được dịch từ bản gốc của [Dave Kerr](https://github.co
 
 ## Giới thiệu
 
-Có rất nhiều luật được mọi người đem ra thảo luận khi đề cập đến phát triển (phần mềm). Tài liệu này là một nguồn tham khảo tổng quan về một số luật phổ biến nhất. 
+Khi nói đến phát triển hay khoa học máy tính, có rất nhiều định luật, lý thuyết, nguyên tắc hay là khuôn mẫu được đem ra thảo luận và áp dụng. Tài liệu này đưa ra một góc nhìn tổng quan về một số luật phổ biến nhất.
 
-❗: Tài liệu này bao gồm phần giải nghĩa của một số định luật, nguyên tắc và khuôn mẫu, nhưng không mang tính ủng hộ cho bất kì cái nào. Việc chúng có nên được áp dụng hay không sẽ luôn là một vấn đề cần tranh luận, và điều đó phụ thuộc rất lớn vào những gì bạn đang làm.
+❗: Tài liệu này bao gồm phần giải thích của một số định luật, nguyên tắc và khuôn mẫu, nhưng không khẳng định sự ủng hộ cho bất kì cái nào. Việc chúng có nên được áp dụng hay không sẽ luôn là một vấn đề cần tranh luận, và điều đó phụ thuộc rất lớn vào những gì bạn đang làm.
 
 ## Các định luật
 
@@ -75,9 +75,9 @@ Có rất nhiều luật được mọi người đem ra thảo luận khi đề
 
 [Luật Amdahl xem tại Wikipedia](https://vi.wikipedia.org/wiki/Lu%E1%BA%ADt_Amdahl)
 
-Luật Amdahl là một công thức thể hiện khả năng tăng tốc mà một tác vụ tính toán có thể đạt được bằng cách tăng lượng tài nguyên của một hệ thống. Nó thường được sử dụng trong tính toán song song và có khả năng dự đoán lợi ích thực tế của việc tăng số lượng bộ xử lý, điều bị giới hạn bởi tính song song của chương trình.
+> Luật Amdahl là một công thức thể hiện khả năng tăng tốc mà một tác vụ tính toán có thể đạt được bằng cách tăng lượng tài nguyên của một hệ thống. Nó thường được sử dụng trong tính toán song song và có khả năng dự đoán lợi ích thực tế của việc tăng số lượng bộ xử lý, điều bị giới hạn bởi tính song song của chương trình.
 
-Tốt nhất hãy minh hoạ bằng một ví dụ. Nếu một chương trình được tạo nên bởi hai phần, trong đó phần A phải được thực thi bởi một bộ xử lý đơn lẻ còn phần B có thể được song song hoá thì chúng ta sẽ thấy việc thêm nhiều bộ xử lý cho hệ thống thực thi chương trình đó chỉ mang lại những lợi ích hạn chế. Nó có khả năng cải thiện đáng kể tốc độ của phần B, nhưng tốc độ của phần A sẽ không thay đổi.
+Lấy ví dụ, nếu một chương trình được tạo nên bởi hai phần, trong đó phần A chỉ có thể được thực thi bởi một bộ xử lý đơn lẻ còn phần B có thể được song song hoá thì chúng ta sẽ thấy việc thêm nhiều bộ xử lý cho hệ thống thực thi chương trình đó chỉ mang lại những lợi ích hạn chế. Nó có khả năng cải thiện đáng kể tốc độ của phần B, nhưng tốc độ của phần A sẽ không thay đổi.
 
 Biểu đồ dưới đây minh hoạ cho khả năng cải thiện tốc độ của việc thêm bộ xử lý cho hệ thống thực thi chương trình song song.
 
@@ -87,26 +87,22 @@ Biểu đồ dưới đây minh hoạ cho khả năng cải thiện tốc độ 
 
 Như chúng ta có thể thấy, một chương trình được song song hoá 50% sẽ tăng tốc rất hạn chế khi thêm quá 10 đơn vị xử lý, trong khi đó một chương trình có thành phần song song hoá chiếm 95% vẫn cho thấy sự cải thiện về tốc độ khi số lượng đơn vị xử lý vượt quá hàng nghìn.
 
-Khi [Luật Moore](#moores-law) chậm lại, và sự tăng trưởng trong tốc độ của một bộ xử lý đơn lẻ giảm đi, tính song song là chìa khoá của việc cải thiện hiệu năng. Lập trình đồ hoạ (Graphics programming) là một ví dụ tuyệt vời. Trong mô hình tính toán dựa trên Shader (Shader based computing) ngày nay, mỗi điểm ảnh hay thành phần đều có thể được kết xuất song song. Đó là lí do vì sao các card đồ hoạ hiện nay thường có hàng nghìn lõi xử lý (GPUs hay đơn vị Shader).
+Khi khoảng thời gian được nhắc tới trong [Luật Moore](#moores-law) chậm lại, hay sự tăng trưởng trong tốc độ của một bộ xử lý đơn lẻ giảm đi, tính song song là chìa khoá của việc cải thiện hiệu năng. Lập trình đồ hoạ (Graphics programming) là một ví dụ tuyệt vời cho điều này. Trong mô hình tính toán dựa trên Shader (Shader based computing) ngày nay, mỗi điểm ảnh hay thành phần đều có thể được kết xuất song song. Vì vậy, việc sử dụng nhiều bộ xử lý có thể cải thiện tốc độ tính toán một cách đáng kể. Đó là lí do vì sao các card đồ họa hiện nay thường có hàng nghìn lõi xử lý (GPUs hay đơn vị Shader).
 
 Xem thêm:
 
 - [Luật Brooks](#brooks-law)
 - [Luật Moore](#moores-law)
 
-### The Broken Windows Theory
+### Lý thuyết Cửa sổ vỡ
 
-[The Broken Windows Theory on Wikipedia](https://en.wikipedia.org/wiki/Broken_windows_theory)
+[Lý thuyết Cửa sổ vỡ xem tại Wikipedia](https://en.wikipedia.org/wiki/Broken_windows_theory)
 
-The Broken Windows Theory suggests that visible signs of crime (or lack of care of an environment) lead to further and more serious crimes (or further deterioration of the environment).
+Lý thuyết Cửa sổ vỡ gợi ý rằng những dấu hiệu phạm tội trực quan (hay sự thiếu quan tâm đến một môi trường nào đó) có thể dẫn tới những hành động phạm tội nghiêm trọng hơn (hay sự phá huỷ môi trường nặng nề hơn).
 
-This theory has been applied to software development, suggesting that poor quality code (or [Technical Debt](#TODO)) can lead to a perception that efforts to improve quality may be ignored or undervalued, thus leading to further poor quality code. This effect cascades leading to a great decrease in quality over time.
+Lý thuyết này đã được áp dụng vào phát triển phần mềm. Nó cho rằng những đoạn mã nguồn kém chất lượng nếu không được sửa chữa kịp thời, sẽ dẫn đến việc bỏ qua (hoặc đánh giá thấp) các nỗ lực cải thiện chất lượng, từ đó dẫn đến nhiều đoạn mã kém chất lượng hơn. Theo thời gian, chất lượng của mã nguồn (và sản phẩm) sẽ bị suy giảm nghiêm trọng.
 
-See also:
-
-- [Technical Debt](#TODO)
-
-Examples:
+Xem thêm (Tiếng Anh):
 
 - [The Pragmatic Programming: Software Entropy](https://pragprog.com/the-pragmatic-programmer/extracts/software-entropy)
 - [Coding Horror: The Broken Window Theory](https://blog.codinghorror.com/the-broken-window-theory/)
