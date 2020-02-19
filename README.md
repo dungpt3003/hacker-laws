@@ -708,17 +708,17 @@ Xem thêm::
 
 [YAGNI on Wikipedia](https://en.wikipedia.org/wiki/You_ain%27t_gonna_need_it)
 
-This is an acronym for _**Y**ou **A**in't **G**onna **N**eed **I**t_.
+Đây là từ viết tắt của _**Y**ou **A**ren't **G**onna **N**eed **I**t_. (Bạn sẽ không cần nó)
 
-> Always implement things when you actually need them, never when you just foresee that you need them.
->
-> ([Ron Jeffries](https://twitter.com/RonJeffries)) (XP co-founder and author of the book "Extreme Programming Installed")
+> Hãy luôn thực hiện mọi thứ khi bạn thực sự cần chúng, chứ không phải khi bạn mới chỉ thấy trước rằng bạn cần chúng.
+> (Always implement things when you actually need them, never when you just foresee that you need them.)
+> ([Ron Jeffries](https://twitter.com/RonJeffries)) (Đồng sáng lập XP và tác giả của cuốn sách "Extreme Programming Installed")
 
-This _Extreme Programming_ (XP) principle suggests developers should only implement functionality that is needed for the immediate requirements, and avoid attempts to predict the future by implementing functionality that might be needed later.
+Nguyên tắc _Extreme Programming_ (XP) này gợi ý rằng các nhà phát triển chỉ nên thực hiện chức năng cần thiết cho các yêu cầu ngay trước mắt và tránh các nỗ lực dự đoán tương lai bằng việc triển khai chức năng có thể cần thiết sau này.
 
-Adhering to this principle should reduce the amount of unused code in the codebase, and avoid time and effort being wasted on functionality that brings no value.
+Tuân thủ nguyên tắc này sẽ làm giảm số lượng đoạn mã không được sử dụng trong toàn bộ mã nguồn cũng như tránh lãng phí thời gian và công sức cho các chức năng không mang lại giá trị.
 
-See also:
+Xem thêm:
 
 - [Reading List: Extreme Programming Installed](#reading-list)
 
