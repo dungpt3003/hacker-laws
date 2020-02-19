@@ -710,13 +710,13 @@ Xem thêm::
 
 Đây là từ viết tắt của _**Y**ou **A**ren't **G**onna **N**eed **I**t_. (Bạn sẽ không cần nó)
 
-> Always implement things when you actually need them, never when you just foresee that you need them.
->
+> Hãy luôn thực hiện mọi thứ khi bạn thực sự cần chúng, chứ không phải khi bạn mới chỉ thấy trước rằng bạn cần chúng.
+> (Always implement things when you actually need them, never when you just foresee that you need them.)
 > ([Ron Jeffries](https://twitter.com/RonJeffries)) (Đồng sáng lập XP và tác giả của cuốn sách "Extreme Programming Installed")
 
-Nguyên tắc _Extreme Programming_ (XP) này đề nghị các nhà phát triển chỉ nên thực hiện chức năng cần thiết cho các yêu cầu trước mắt và tránh các nỗ lực dự đoán tương lai bằng cách triển khai chức năng có thể cần thiết sau này.
+Nguyên tắc _Extreme Programming_ (XP) này gợi ý rằng các nhà phát triển chỉ nên thực hiện chức năng cần thiết cho các yêu cầu ngay trước mắt và tránh các nỗ lực dự đoán tương lai bằng việc triển khai chức năng có thể cần thiết sau này.
 
-Tuân thủ nguyên tắc này sẽ làm giảm số lượng đoạn mã không được sử dụng trong mã nguồn và tránh lãng phí thời gian và công sức cho chức năng không mang lại giá trị.
+Tuân thủ nguyên tắc này sẽ làm giảm số lượng đoạn mã không được sử dụng trong toàn bộ mã nguồn cũng như tránh lãng phí thời gian và công sức cho các chức năng không mang lại giá trị.
 
 Xem thêm:
 
