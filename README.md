@@ -15,7 +15,7 @@ Tài liệu được dịch từ bản gốc của [Dave Kerr](https://github.co
   - [Các định luật](#c%c3%a1c-%c4%91%e1%bb%8bnh-lu%e1%ba%adt)
     - [Luật Amdahl](#lu%e1%ba%adt-amdahl)
     - [Lý thuyết Cửa sổ vỡ](#l%c3%bd-thuy%e1%ba%bft-c%e1%bb%ada-s%e1%bb%95-v%e1%bb%a1)
-    - [Brooks' Law](#brooks-law)
+    - [Luật Brooks](#lu%e1%ba%adt-brooks)
     - [Conway's Law](#conways-law)
     - [Cunningham's Law](#cunninghams-law)
     - [Dunbar's Number](#dunbars-number)
@@ -108,21 +108,20 @@ Xem thêm (Tiếng Anh):
 - [Coding Horror: The Broken Window Theory](https://blog.codinghorror.com/the-broken-window-theory/)
 - [OpenSource: Joy of Programming - The Broken Window Theory](https://opensourceforu.com/2011/05/joy-of-programming-broken-window-theory/)
 
-### Brooks' Law
+### Luật Brooks
 
-[Brooks' Law on Wikipedia](https://en.wikipedia.org/wiki/Brooks%27s_law)
+[Luật Brooks xem tại Wikipedia](https://en.wikipedia.org/wiki/Brooks%27s_law)
 
-> Adding human resources to a late software development project makes it later.
+> Việc thêm người vào một dự án phát triển phần mềm đã chậm tiến độ thường sẽ khiến nó chậm hơn.
 
-This law suggests that in many cases, attempting to accelerate the delivery of a project which is already late, by adding more people, will make the delivery even later. Brooks is clear that this is an over-simplification, however, the general reasoning is that given the ramp up time of new resources and the communication overheads, in the immediate short-term velocity decreases. Also, many tasks may not be divisible, i.e. easily distributed between more resources, meaning the potential velocity increase is also lower.
+Luật này gợi ý rằng trong nhiều trường hợp, việc cố gắng đẩy nhanh một dự án đã bị chậm tiến độ bằng việc thêm nhiều người sẽ khiến việc hoàn thành thậm chí chậm hơn. Dù chính Brooks đã khẳng định rằng luật này đã bị đơn giản hoá quá mức, nhưng luận điểm chung của nó là với thời gian phải bỏ ra cho các nguồn tài nguyên mới và gánh nặng giao tiếp, tốc độ trong ngắn hạn sẽ giảm đi. Hơn nữa, rất nhiều tác vụ có thể không chia nhỏ được (hay dễ dàng phân chia cho các nguồn lực tăng cường), nghĩa là khả năng tăng tốc nói chung cũng thấp hơn.
 
-The common phrase in delivery "Nine women can't make a baby in one month" relates to Brooks' Law, in particular, the fact that some kinds of work are not divisible or parallelisable.
+Có một câu nói phổ biến liên quan tới luật Brooks: "Chín người phụ nữ cũng không thể sinh ra một đứa trẻ trong một tháng", hay một số loại công việc đơn giản là không thể chia nhỏ hay song song hoá được.
 
-This is a central theme of the book '[The Mythical Man Month](#reading-list)'.
+Luật này là chủ đề chính của cuốn sách '[The Mythical Man Month](#reading-list)'
 
-See also:
+Xem thêm:
 
-- [Death March](#todo)
 - [Reading List: The Mythical Man Month](#reading-list)
 
 ### Conway's Law
