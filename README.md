@@ -17,7 +17,7 @@ Tài liệu được dịch từ bản gốc của [Dave Kerr](https://github.co
     - [Lý thuyết Cửa sổ vỡ](#l%c3%bd-thuy%e1%ba%bft-c%e1%bb%ada-s%e1%bb%95-v%e1%bb%a1)
     - [Luật Brooks](#lu%e1%ba%adt-brooks)
     - [Luật Conway](#lu%e1%ba%adt-conway)
-    - [Cunningham's Law](#cunninghams-law)
+    - [Luật Cunningham](#lu%e1%ba%adt-cunningham)
     - [Dunbar's Number](#dunbars-number)
     - [Gall's Law](#galls-law)
     - [Goodhart's Law](#goodharts-law)
@@ -54,7 +54,7 @@ Tài liệu được dịch từ bản gốc của [Dave Kerr](https://github.co
     - [The Interface Segregation Principle](#the-interface-segregation-principle)
     - [The Dependency Inversion Principle](#the-dependency-inversion-principle)
     - [Nguyên tắc DRY](#nguy%c3%aan-t%e1%ba%afc-dry)
-    - [The KISS principle](#the-kiss-principle)
+    - [Nguyên tắc KISS](#nguy%c3%aan-t%e1%ba%afc-kiss)
     - [YAGNI](#yagni)
     - [The Fallacies of Distributed Computing](#the-fallacies-of-distributed-computing)
   - [Reading List](#reading-list)
@@ -134,15 +134,15 @@ Xem thêm:
 
 - [Mô hình Spotify](#m%c3%b4-h%c3%acnh-spotify)
 
-### Cunningham's Law
+### Luật Cunningham
 
-[Cunningham's Law on Wikipedia](https://en.wikipedia.org/wiki/Ward_Cunningham#Cunningham's_Law)
+[Luật Cunningham xem tại Wikipedia](https://en.wikipedia.org/wiki/Ward_Cunningham#Cunningham's_Law)
 
-> The best way to get the right answer on the Internet is not to ask a question, it's to post the wrong answer.
+> Cách tốt nhất để tìm được câu trả lời đúng trên Internet không phải là đặt câu hỏi, mà là đăng lên một câu trả lời sai.
 
-According to Steven McGeady, Ward Cunningham advised him in the early 1980s: "The best way to get the right answer on the Internet is not to ask a question, it's to post the wrong answer." McGeady dubbed this Cunningham's law, though Cunningham denies ownership calling it a "misquote." Although originally referring to interactions on Usenet, the law has been used to describe how other online communities work (e.g., Wikipedia, Reddit, Twitter, Facebook).
+Theo [Steven McGeady](https://en.wikipedia.org/wiki/Steven_McGeady), [Ward Cunningham](https://en.wikipedia.org/wiki/Ward_Cunningham) đã đưa ra lời khuyên này cho ông vào đầu những năm 80: "Cách tốt nhất để tìm được câu trả lời đúng trên Internet không phải là đặt câu hỏi, mà là đăng lên một câu trả lời sai.". McGeady đặt tên cho luật này là ***Luật Cunningham***, tuy nhiên Cunningham phủ nhận điều này và gọi đây là một "trích dẫn sai". Mặc dù ban đầu nó được dùng để nói về tương tác trên Usenet, luật này cũng được sử dụng để mô tả cách mà các cộng đồng trực tuyến khác hoạt động (ví dụ: Wikipedia, Reddit, Twitter, Facebook).
 
-See also:
+Xem thêm:
 
 - [XKCD 386: "Duty Calls"](https://xkcd.com/386/)
 
@@ -156,7 +156,7 @@ Like stable relationships between individuals, a developer's relationship with a
 
 See also:
 
-- [Conway's Law](#conways-law)
+- [Conway's Law](#lu%e1%ba%adt-conway)
 
 ### Gall's Law
 
@@ -685,7 +685,7 @@ Xem thêm:
 
 - [The Pragmatic Developer](https://en.wikipedia.org/wiki/The_Pragmatic_Programmer)
 
-### The KISS principle
+### Nguyên tắc KISS
 
 [KISS on Wikipedia](https://en.wikipedia.org/wiki/KISS_principle)
 
