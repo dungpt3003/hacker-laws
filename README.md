@@ -132,7 +132,7 @@ Luật Conway gợi ý rằng những giới hạn kỹ thuật của một hệ
 
 Xem thêm:
 
-- [Mô hình Spotify](#the-spotify-model)
+- [Mô hình Spotify](#m%c3%b4-h%c3%acnh-spotify)
 
 ### Cunningham's Law
 
