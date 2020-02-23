@@ -18,7 +18,7 @@ Tài liệu được dịch từ bản gốc của [Dave Kerr](https://github.co
     - [Luật Brooks](#lu%e1%ba%adt-brooks)
     - [Luật Conway](#lu%e1%ba%adt-conway)
     - [Luật Cunningham](#lu%e1%ba%adt-cunningham)
-    - [Dunbar's Number](#dunbars-number)
+    - [Số Dunbar](#s%e1%bb%91-dunbar)
     - [Gall's Law](#galls-law)
     - [Goodhart's Law](#goodharts-law)
     - [Hanlon's Razor](#hanlons-razor)
@@ -146,17 +146,17 @@ Xem thêm:
 
 - [XKCD 386: "Duty Calls"](https://xkcd.com/386/)
 
-### Dunbar's Number
+### Số Dunbar
 
-[Dunbar's Number on Wikipedia](https://en.wikipedia.org/wiki/Dunbar%27s_number)
+[Số Dunbar xem tại Wikipedia](https://en.wikipedia.org/wiki/Dunbar%27s_number)
 
-"Dunbar's number is a suggested cognitive limit to the number of people with whom one can maintain stable social relationships— relationships in which an individual knows who each person is and how each person relates to every other person." There is some disagreement to the exact number. "... [Dunbar] proposed that humans can comfortably maintain only 150 stable relationships." He put the number into a more social context, "the number of people you would not feel embarrassed about joining uninvited for a drink if you happened to bump into them in a bar." Estimates for the number generally lay between 100 and 250.
+Số Dunbar được đề xuất như là một giới hạn nhận thức để chỉ số lượng người tối đa mà một cá nhân có thể duy trì mối quan hệ xã hội ổn định (những mối quan hệ mà trong đó một người biết những người còn lại và mối liên hệ của họ với những người khác). Dù có một vài bất đồng trong con số chính xác, nhưng Dunbar cho rằng mỗi người chỉ có thể thoải mái duy trì 150 quan hệ ổn định. Ông ấy đặt con số này trong một hoàn cảnh xã hội cụ thể: "Đó là số người mà bạn có thể thoải mái làm với bạn một ly khi bạn vô tình gặp họ trong quán bar". Ước tính về con số cụ thể thường rơi vào giữa 100 và 250.
 
-Like stable relationships between individuals, a developer's relationship with a codebase takes effort to maintain. When faced with large complicated projects, or ownership of many projects we lean on convention, policy, and modeled procedure to scale. Dunbar's number is not only important to keep in mind as an office grows, but also when setting the scope for team efforts or deciding when a system should invest in tooling to assist in modeling and automating logistical overhead. Putting the number into an engineering context, it is the number of projects (or normalized complexity of a single project) for which you would feel confident in joining an on-call rotation to support.
+Cũng giống như những mối quan hệ ổn định giữa người với người, mối quan hệ của một nhà phát triển với mã nguồn của họ cũng đòi hỏi nỗ lực để duy trì. Khi phải đối mặt với những dự án lớn và phức tạp, hay khi phải làm chủ quá nhiều dự án, chúng ta thường dựa vào các quy ước, luật lệ và các quy trình đã được mô hình hóa để mở rộng. Số Dunbar không chỉ quan trọng và cần được ghi nhớ khi phát triển tổ chức, mà còn áp dụng khi đặt ra giới hạn cho nỗ lực của đội nhóm hay khi đưa ra quyết định rằng một hệ thống có nên đầu tư vào các công cụ để hỗ trợ việc mô hình hóa và tự động hóa các công việc hậu cần hay không. Đặt con số này vào môi trường kĩ thuật, đó là số lượng dự án (hoặc các mức độ phức tạp của một dự án) mà bạn có thể tự tin tham gia vào khi được yêu cầu hỗ trợ.
 
-See also:
+Xem thêm:
 
-- [Conway's Law](#lu%e1%ba%adt-conway)
+- [Luật Conway](#lu%e1%ba%adt-conway)
 
 ### Gall's Law
 
