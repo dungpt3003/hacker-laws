@@ -462,7 +462,7 @@ Modern practices like 'Microservice Architecture' can be thought of as an applic
 
 Mô hình Spotify là một cách tiếp cận trong việc xây dựng cấu trúc cho đội nhóm và tổ chức, được phổ biến bởi 'Spotify'. Trong mô hình này, các đội nhóm được tập trung xây dựng xung quanh tính năng thay vì công nghệ. 
 
-M ô hình Spotify cũng phổ biến các khái niệm về **Tribes**, **Guilds** hay **Chapters**, là những thành phần khác trong cấu trúc tổ chức của họ.
+Mô hình Spotify cũng phổ biến các khái niệm về **Tribes**, **Guilds** hay **Chapters**, là những thành phần khác trong cấu trúc tổ chức của họ.
 
 ### Wadler's Law
 
