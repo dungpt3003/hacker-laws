@@ -16,7 +16,7 @@ Tài liệu được dịch từ bản gốc của [Dave Kerr](https://github.co
     - [Luật Amdahl](#lu%e1%ba%adt-amdahl)
     - [Lý thuyết Cửa sổ vỡ](#l%c3%bd-thuy%e1%ba%bft-c%e1%bb%ada-s%e1%bb%95-v%e1%bb%a1)
     - [Luật Brooks](#lu%e1%ba%adt-brooks)
-    - [Conway's Law](#conways-law)
+    - [Luật Conway](#lu%e1%ba%adt-conway)
     - [Cunningham's Law](#cunninghams-law)
     - [Dunbar's Number](#dunbars-number)
     - [Gall's Law](#galls-law)
@@ -39,7 +39,7 @@ Tài liệu được dịch từ bản gốc của [Dave Kerr](https://github.co
     - [The Law of Leaky Abstractions](#the-law-of-leaky-abstractions)
     - [The Law of Triviality](#the-law-of-triviality)
     - [The Unix Philosophy](#the-unix-philosophy)
-    - [The Spotify Model](#the-spotify-model)
+    - [Mô hình Spotify](#m%c3%b4-h%c3%acnh-spotify)
     - [Wadler's Law](#wadlers-law)
     - [Wheaton's Law](#wheatons-law)
   - [Principles](#principles)
@@ -124,15 +124,15 @@ Xem thêm:
 
 - [Reading List: The Mythical Man Month](#reading-list)
 
-### Conway's Law
+### Luật Conway
 
-[Conway's Law on Wikipedia](https://en.wikipedia.org/wiki/Conway%27s_law)
+[Luật Conway xem tại Wikipedia](https://en.wikipedia.org/wiki/Conway%27s_law)
 
-This law suggests that the technical boundaries of a system will reflect the structure of the organisation. It is commonly referred to when looking at organisation improvements, Conway's Law suggests that if an organisation is structured into many small, disconnected units, the software it produces will be. If an organisation is built more around 'verticals' which are orientated around features or services, the software systems will also reflect this.
+Luật Conway gợi ý rằng những giới hạn kỹ thuật của một hệ thống sẽ phản ánh cấu trúc của tổ chức làm ra nó. Luật này thường được đề cập khi xem xét các cải tiến của tổ chức, rằng nếu một tổ chức được cấu thành từ những đơn vị nhỏ lẻ, rời rạc, phần mềm mà nó tạo ra cũng sẽ như vậy. Nếu một tổ chức được xây dựng "theo chiều dọc" và được định hướng xung quanh các tính năng và dịch vụ, hệ thống phần mềm của họ cũng sẽ phản ánh điều này. 
 
-See also:
+Xem thêm:
 
-- [The Spotify Model](#the-spotify-model)
+- [Mô hình Spotify](#m%c3%b4-h%c3%acnh-spotify)
 
 ### Cunningham's Law
 
@@ -456,13 +456,13 @@ The Unix Philosophy is that software components should be small, and focused on 
 
 Modern practices like 'Microservice Architecture' can be thought of as an application of this law, where services are small, focused and do one specific thing, allowing complex behaviour to be composed of simple building blocks.
 
-### The Spotify Model
+### Mô hình Spotify
 
-[The Spotify Model on Spotify Labs](https://labs.spotify.com/2014/03/27/spotify-engineering-culture-part-1/)
+[Mô hình Spotify xem tại Spotify Labs](https://labs.spotify.com/2014/03/27/spotify-engineering-culture-part-1/)
 
-The Spotify Model is an approach to team and organisation structure which has been popularised by 'Spotify'. In this model, teams are organised around features, rather than technologies.
+Mô hình Spotify là một cách tiếp cận trong việc xây dựng cấu trúc cho đội nhóm và tổ chức, được phổ biến bởi 'Spotify'. Trong mô hình này, các đội nhóm được tập trung xây dựng xung quanh tính năng thay vì công nghệ. 
 
-The Spotify Model also popularises the concepts of Tribes, Guilds, Chapters, which are other components of their organisation structure.
+Mô hình Spotify cũng phổ biến các khái niệm về **Tribes**, **Guilds** hay **Chapters**, là những thành phần khác trong cấu trúc tổ chức của họ.
 
 ### Wadler's Law
 
