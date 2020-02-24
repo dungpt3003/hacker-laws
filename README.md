@@ -19,7 +19,7 @@ Tài liệu được dịch từ bản gốc của [Dave Kerr](https://github.co
     - [Luật Conway](#lu%e1%ba%adt-conway)
     - [Luật Cunningham](#lu%e1%ba%adt-cunningham)
     - [Số Dunbar](#s%e1%bb%91-dunbar)
-    - [Gall's Law](#galls-law)
+    - [Luật Gall](#lu%e1%ba%adt-gall)
     - [Goodhart's Law](#goodharts-law)
     - [Hanlon's Razor](#hanlons-razor)
     - [Hofstadter's Law](#hofstadters-law)
@@ -158,21 +158,19 @@ Xem thêm:
 
 - [Luật Conway](#lu%e1%ba%adt-conway)
 
-### Gall's Law
+### Luật Gall
 
-[Gall's Law on Wikipedia](https://en.wikipedia.org/wiki/John_Gall_(author)#Gall's_law)
+[Luật Gall xem tại Wikipedia](https://en.wikipedia.org/wiki/John_Gall_(author)#Gall's_law)
 
-> A complex system that works is invariably found to have evolved from a simple system that worked. A complex system designed from scratch never works and cannot be patched up to make it work. You have to start over with a working simple system.
->
+> Một hệ thống phức tạp hoạt động được luôn luôn phát triển từ một hệ thống đơn giản hoạt động được. Một hệ thống được thiết kế phức tạp từ đầu sẽ không bao giờ hoạt động dù có cố vá víu như thế nào. Bạn phải bắt đầu với một hệ thống đơn giản, hoạt động được trước.
 > ([John Gall](https://en.wikipedia.org/wiki/John_Gall_(author)))
 
-Gall's Law implies that attempts to _design_ highly complex systems are likely to fail. Highly complex systems are rarely built in one go, but evolve instead from more simple systems.
+Luật Gall chỉ ra rằng việc cố gắng _thiết kế_ những hệ thống cực kì phức tạp thường dễ dẫn tới thất bại. Những hệ thống như vậy thường ít khi được xây dựng phức tạp từ đầu, thay vào đó là được phát triển từ nhiều hệ thống đơn giản hơn.
 
-The classic example is the world-wide-web. In it's current state, it is a highly complex system. However, it was defined initially as a simple way to share content between academic institutions. It was very successful in meeting these goals and evolved to become more complex over time.
+Ví dụ kinh điển cho luật này chính là mạng world-wide-web (WWW). Ở trạng thái hiện tại, nó là một hệ thống cực kì phức tạp. Tuy nhiên, ban đầu nó chỉ được định nghĩa như là một cách thức đơn giản để chia sẻ nội dung giữa các tổ chức học thuật. Nó đã hoàn thành mục tiêu đó rất thành công và phát triển để trở nên phức tạp hơn theo thời gian.
+Xem thêm:
 
-See also:
-
-- [KISS (Keep It Simple, Stupid)](#the-kiss-principle)
+- [Nguyên tắc KISS](#nguy%c3%aan-t%e1%ba%afc-kiss)
 
 ### Goodhart's Law
 
