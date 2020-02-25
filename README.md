@@ -20,7 +20,7 @@ Tài liệu được dịch từ bản gốc của [Dave Kerr](https://github.co
     - [Luật Cunningham](#lu%e1%ba%adt-cunningham)
     - [Số Dunbar](#s%e1%bb%91-dunbar)
     - [Luật Gall](#lu%e1%ba%adt-gall)
-    - [Goodhart's Law](#goodharts-law)
+    - [Luật Goodhart](#lu%e1%ba%adt-goodhart)
     - [Hanlon's Razor](#hanlons-razor)
     - [Hofstadter's Law](#hofstadters-law)
     - [Hutber's Law](#hutbers-law)
@@ -172,27 +172,27 @@ Xem thêm:
 
 - [Nguyên tắc KISS](#nguy%c3%aan-t%e1%ba%afc-kiss)
 
-### Goodhart's Law
+### Luật Goodhart
 
-[The Goodhart's Law on Wikipedia](https://en.wikipedia.org/wiki/Goodhart's_law)
-
-> Any observed statistical regularity will tend to collapse once pressure is placed upon it for control purposes.
->
+[Luật Goodhart xem tại Wikipedia](https://en.wikipedia.org/wiki/Goodhart's_law)
+> Bất kỳ chỉ số thống kê nào cũng có xu hướng sụp đổ một khi áp lực được đặt vào nó cho mục đích kiểm soát.
+> 
 > _Charles Goodhart_
 
-Also commonly referenced as:
+Nói cách khác:
 
-> When a measure becomes a target, it ceases to be a good measure.
+> Khi một chỉ số trở thành mục tiêu, nó không còn là một chỉ số tốt nữa.
 >
 > _Marilyn Strathern_
 
-The law states that the measure-driven optimizations could lead to devaluation of the measurement outcome itself. Overly selective set of measures ([KPIs](https://en.wikipedia.org/wiki/Performance_indicator)) blindly applied to a process results in distorted effect. People tend to optimize locally by "gaming" the system in order to satisfy particular metrics instead of paying attention to holistic outcome of their actions.
+Luật này chỉ ra rằng việc tối ưu hóa theo chỉ số có thể dẫn tới sự giảm giá trị của chính chỉ số đó. 
+Tập hợp các chỉ tiêu bị lựa chọn quá mức ([KPIs](https://en.wikipedia.org/wiki/Performance_indicator)) một cách mù quáng khi áp dụng vào một quá trình thường dẫn tới những hiệu ứng méo mó. Người ta có xu hướng tối ưu cục bộ bằng cách "thưởng nóng" hệ thống để thỏa mãn một tập chỉ số nhất định thay vì tập trung vào kết quả toàn diện của hành động của họ.
 
-Real-world examples:
-- Assert-free tests satisfy the code coverage expectation, despite the metric intent was to create well-tested software.
-- Developer performance score indicated by the number of lines committed leads to unjustifiably bloated codebase.
+Ví dụ thực tế:
+- Các kiểm thử không xác minh (assert-free tests) chỉ thoả mãn yêu cầu về độ bao phủ mã, mặc dù mục đích của nó là tạo ra một phần mềm được kiểm thử tốt.
+- Hiệu suất của nhà phát triển nếu được đo bằng số lượng dòng mã sẽ dẫn tới hệ thống mã nguồn cồng kềnh không cần thiết.
 
-See also:
+Xem thêm:
 - [Goodhart’s Law: How Measuring The Wrong Things Drive Immoral Behaviour](https://coffeeandjunk.com/goodharts-campbells-law/)
 - [Dilbert on bug-free software](https://dilbert.com/strip/1995-11-13)
 
