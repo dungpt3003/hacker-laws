@@ -715,31 +715,31 @@ Xem thêm:
 
 - [Reading List: Extreme Programming Installed](#reading-list)
 
-### The Fallacies of Distributed Computing
+### Sự ảo tưởng của Điện toán Phân tán
 
-[The Fallacies of Distributed Computing on Wikipedia](https://en.wikipedia.org/wiki/Fallacies_of_distributed_computing)
+[Từ gốc `The Fallacies of Distributed Computing` xem tại Wikipedia](https://en.wikipedia.org/wiki/Fallacies_of_distributed_computing)
 
-Also known as _Fallacies of Networked Computing_, the Fallacies are a list of conjectures (or beliefs) about distributed computing, which can lead to failures in software development. The assumptions are:
+Còn được gọi là _Sự ảo tưởng của Mạng Điện toán_, Fallacies là một danh sách các ảo tưởng (hay niềm tin) về điện toán phân tán, có thể dẫn đến các thất bại trong việc phát triển phần mêmf. Các ảo tưởng này là:
 
-- The network is reliable
-- Latency is zero
-- Bandwidth is infinite
-- The network is secure
-- Topology doesn't change
-- There is one administrator
-- Transport cost is zero
-- The network is homogeneous
+- Mạng luôn tin cậy
+- Độ trễ bằng 0
+- Băng thông vô hạn
+- Mạng luôn an toàn
+- Cấu trúc mạng (topology) không thay đổi
+- Có một quản trị viên
+- Chi phí vận truyền bằng 0
+- Mạng là đồng nhất
 
-The first four items were listed by [Bill Joy](https://en.wikipedia.org/wiki/Bill_Joy) and [Tom Lyon](https://twitter.com/aka_pugs) around 1991 and first classified by [James Gosling](https://en.wikipedia.org/wiki/James_Gosling) as the "Fallacies of Networked Computing". [L. Peter Deutsch](https://en.wikipedia.org/wiki/L._Peter_Deutsch) added the 5th, 6th and 7th fallacies. In the late 90's Gosling added the 8th fallacy.
+Bốn ý đầu tiên được liệt kê bởi [Bill Joy](https://en.wikipedia.org/wiki/Bill_Joy) and [Tom Lyon](https://twitter.com/aka_pugs) khoảng năm 1991 và được phân loại thành "Fallacies of Networked Computing" lần đầu bởi [James Gosling](https://en.wikipedia.org/wiki/James_Gosling). [L. Peter Deutsch](https://en.wikipedia.org/wiki/L._Peter_Deutsch) đã thêm vào danh sách các ý số 5, 6 và 7. Cuối thập niên 90 Gosling đã thêm vào ý số 8.
 
-The group were inspired by what was happening at the time inside [Sun Microsystems](https://en.wikipedia.org/wiki/Sun_Microsystems).
+Nhóm được truyền cảm hứng bởi những gì đã xảy ra trong khoảng thời gian làm việc tại [Sun Microsystems](https://en.wikipedia.org/wiki/Sun_Microsystems).
 
-These fallacies should be considered carefully when designing code which is resilient; assuming any of these fallacies can lead to flawed logic which fails to deal with the realities and complexities of distributed systems.
+Những ảo tưởng nên được xem xét một cách cẩn thận khi thiết kế chương trình; việc tin vào bất kỳ các ảo tưởng nào ở đây đều có thể dẫn tới sự thiếu sót logic, mà không giải quyết được vấn đề thực tế và sự phức tạp của các hệ thống phân tán.
 
-See also:
+Xem thêm:
 
 - [Foraging for the Fallacies of Distributed Computing (Part 1) - Vaidehi Joshi
- on Medium](https://medium.com/baseds/foraging-for-the-fallacies-of-distributed-computing-part-1-1b35c3b85b53)
+ trên Medium](https://medium.com/baseds/foraging-for-the-fallacies-of-distributed-computing-part-1-1b35c3b85b53)
 - [Deutsch's Fallacies, 10 Years After](http://java.sys-con.com/node/38665)
 
 ## Reading List
