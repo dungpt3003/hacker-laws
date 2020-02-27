@@ -21,8 +21,8 @@ Tài liệu được dịch từ bản gốc của [Dave Kerr](https://github.co
     - [Số Dunbar](#s%e1%bb%91-dunbar)
     - [Luật Gall](#lu%e1%ba%adt-gall)
     - [Luật Goodhart](#lu%e1%ba%adt-goodhart)
-    - [Hanlon's Razor](#hanlons-razor)
-    - [Hofstadter's Law](#hofstadters-law)
+    - [Lưỡi cạo Hanlon](#l%c6%b0%e1%bb%a1i-c%e1%ba%a1o-hanlon)
+    - [Luật Hofstadter](#lu%e1%ba%adt-hofstadter)
     - [Hutber's Law](#hutbers-law)
     - [The Hype Cycle & Amara's Law](#the-hype-cycle--amaras-law)
     - [Hyrum's Law (The Law of Implicit Interfaces)](#hyrums-law-the-law-of-implicit-interfaces)
@@ -196,29 +196,29 @@ Xem thêm:
 - [Goodhart’s Law: How Measuring The Wrong Things Drive Immoral Behaviour](https://coffeeandjunk.com/goodharts-campbells-law/)
 - [Dilbert on bug-free software](https://dilbert.com/strip/1995-11-13)
 
-### Hanlon's Razor
+### Lưỡi cạo Hanlon
 
-[Hanlon's Razor on Wikipedia](https://en.wikipedia.org/wiki/Hanlon%27s_razor)
+[Lưỡi cạo Hanlon xem tại Wikipedia](https://en.wikipedia.org/wiki/Hanlon%27s_razor)
 
-> Never attribute to malice that which is adequately explained by stupidity.
+> Đừng vội vã gán ý đồ xấu cho một hiện tượng trong khi có thể giải thích một cách hợp lí rằng đó là do sự thiếu hiểu biết.
 >
 > Robert J. Hanlon
 
-This principle suggests that actions resulting in a negative outcome were not a result of ill will. Instead the negative outcome is more likely attributed to those actions and/or the impact being not fully understood.
+Nguyên tắc này gợi ý rằng các hành động dẫn đến kết quả tiêu cực chưa chắc đã là kết quả của ý đồ xấu. Thay vào đó, kết quả tiêu cực nhiều khả năng được quy kết từ chính những hành động đó và/hoặc ảnh hưởng của sự thiếu hiểu biết.
 
-### Hofstadter's Law
+### Luật Hofstadter
 
-[Hofstadter's Law on Wikipedia](https://en.wikipedia.org/wiki/Hofstadter%27s_law)
+[Luật Hofstadter xem tại Wikipedia](https://en.wikipedia.org/wiki/Hofstadter%27s_law)
 
-> It always takes longer than you expect, even when you take into account Hofstadter's Law.
+> Mọi việc sẽ luôn mất thời gian hơn dự kiến, kể cả khi bạn đã tính đến Luật Hofstadter
 >
 > (Douglas Hofstadter)
 
-You might hear this law referred to when looking at estimates for how long something will take. It seems a truism in software development that we tend to not be very good at accurately estimating how long something will take to deliver.
+Bạn có thể đã từng nghe đến luật này khi xem xét việc ước tính thời gian hoàn thành của một việc gì đó. Sự thật là trong phát triển phần mềm, chúng ta thường không giỏi trong việc ước tính một cách chính xác thời gian hoàn thành của bất kì việc gì.
 
-This is from the book '[Gödel, Escher, Bach: An Eternal Golden Braid](#reading-list)'.
+Luật này được trích từ cuốn sách '[Gödel, Escher, Bach: An Eternal Golden Braid](#reading-list)'.
 
-See also:
+Xem thêm:
 
 - [Reading List: Gödel, Escher, Bach: An Eternal Golden Braid](#reading-list)
 
