@@ -719,22 +719,22 @@ Xem thêm:
 
 [Từ gốc `The Fallacies of Distributed Computing` xem tại Wikipedia](https://en.wikipedia.org/wiki/Fallacies_of_distributed_computing)
 
-Còn được gọi là _Sự ảo tưởng của Mạng Phân tán_, Fallacies là một danh sách các ảo tưởng (hay niềm tin) về điện toán phân tán, có thể dẫn đến các thất bại trong việc phát triển phần mêmf. Các ảo tưởng này là:
+Còn được gọi là _Sự ảo tưởng của Mạng Điện toán_, Fallacies là một danh sách các ảo tưởng (hay niềm tin) về điện toán phân tán, có thể dẫn đến các thất bại trong việc phát triển phần mêmf. Các ảo tưởng này là:
 
-- Mạng tin cậy
+- Mạng luôn tin cậy
 - Độ trễ bằng 0
 - Băng thông vô hạn
-- Mạng an toàn
+- Mạng luôn an toàn
 - Cấu trúc mạng (topology) không thay đổi
 - Có một quản trị viên
 - Chi phí vận truyền bằng 0
 - Mạng là đồng nhất
 
-Bốn ý đầu tiên được liệt kê bởi [Bill Joy](https://en.wikipedia.org/wiki/Bill_Joy) and [Tom Lyon](https://twitter.com/aka_pugs) khoảng năm 1991 và được phân loại thành "Fallacies of Networked Computing" lần đầu bởi [James Gosling](https://en.wikipedia.org/wiki/James_Gosling). [L. Peter Deutsch](https://en.wikipedia.org/wiki/L._Peter_Deutsch) đã thêm vào danh sách các ý số 5, 6 và 7. Cuối thập niên 90 Gosling đã thêm vào ý số 9.
+Bốn ý đầu tiên được liệt kê bởi [Bill Joy](https://en.wikipedia.org/wiki/Bill_Joy) and [Tom Lyon](https://twitter.com/aka_pugs) khoảng năm 1991 và được phân loại thành "Fallacies of Networked Computing" lần đầu bởi [James Gosling](https://en.wikipedia.org/wiki/James_Gosling). [L. Peter Deutsch](https://en.wikipedia.org/wiki/L._Peter_Deutsch) đã thêm vào danh sách các ý số 5, 6 và 7. Cuối thập niên 90 Gosling đã thêm vào ý số 8.
 
 Nhóm được truyền cảm hứng bởi những gì đã xảy ra trong khoảng thời gian làm việc tại [Sun Microsystems](https://en.wikipedia.org/wiki/Sun_Microsystems).
 
-Những ảo tưởng nên được xem xét cẩn thận khi thiết kế chương trình; giả sử bất kỳ các ảo tưởng ở đây có thể dẫn tới thiếu sót logic mà không giải quyết được vấn đề thực tế và sự phức tạp của các hệ thống phân tán.
+Những ảo tưởng nên được xem xét một cách cẩn thận khi thiết kế chương trình; việc tin vào bất kỳ các ảo tưởng nào ở đây đều có thể dẫn tới sự thiếu sót logic, mà không giải quyết được vấn đề thực tế và sự phức tạp của các hệ thống phân tán.
 
 Xem thêm:
 
