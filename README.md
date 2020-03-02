@@ -23,8 +23,7 @@ Tài liệu được dịch từ bản gốc của [Dave Kerr](https://github.co
     - [Luật Goodhart](#lu%e1%ba%adt-goodhart)
     - [Lưỡi cạo Hanlon](#l%c6%b0%e1%bb%a1i-c%e1%ba%a1o-hanlon)
     - [Luật Hofstadter](#lu%e1%ba%adt-hofstadter)
-    - [Hutber's Law](#hutbers-law)
-    - [The Hype Cycle & Amara's Law](#the-hype-cycle--amaras-law)
+    - [Luật Hutber](#lu%e1%ba%adt-hutber)
     - [Hyrum's Law (The Law of Implicit Interfaces)](#hyrums-law-the-law-of-implicit-interfaces)
     - [Kernighan's Law](#kernighans-law)
     - [Metcalfe's Law](#metcalfes-law)
@@ -56,7 +55,7 @@ Tài liệu được dịch từ bản gốc của [Dave Kerr](https://github.co
     - [Nguyên tắc DRY](#nguy%c3%aan-t%e1%ba%afc-dry)
     - [Nguyên tắc KISS](#nguy%c3%aan-t%e1%ba%afc-kiss)
     - [YAGNI](#yagni)
-    - [The Fallacies of Distributed Computing](#the-fallacies-of-distributed-computing)
+    - [Sự ảo tưởng của Điện toán Phân tán](#s%e1%bb%b1-%e1%ba%a3o-t%c6%b0%e1%bb%9fng-c%e1%bb%a7a-%c4%90i%e1%bb%87n-to%c3%a1n-ph%c3%a2n-t%c3%a1n)
   - [Reading List](#reading-list)
   - [Contributing](#contributing)
   - [TODO](#todo)
@@ -222,19 +221,17 @@ Xem thêm:
 
 - [Reading List: Gödel, Escher, Bach: An Eternal Golden Braid](#reading-list)
 
-### Hutber's Law
+### Luật Hutber
 
-[Hutber's Law on Wikipedia](https://en.wikipedia.org/wiki/Hutber%27s_law)
+[Luật Hutber xem tại Wikipedia](https://en.wikipedia.org/wiki/Hutber%27s_law)
 
-> Improvement means deterioration.
+> Cải tiến đồng nghĩa với "cải lùi"
 >
 > ([Patrick Hutber](https://en.wikipedia.org/wiki/Patrick_Hutber))
 
-This law suggests that improvements to a system will lead to deterioration in other parts, or it will hide other deterioration, leading overall to a degradation from the current state of the system.
+Luật này gợi ý rằng các cải tiến của một hệ thống sẽ dẫn đến sự hỏng hóc ở một số phần, hoặc che giấu sự bất ổn, dẫn tới sự suy giảm chung so với trạng thái hiện tại của hệ thống.
 
-For example, a decrease in response latency for a particular end-point could cause increased throughput and capacity issues further along in a request flow, affecting an entirely different sub-system.
-
-### The Hype Cycle & Amara's Law
+Ví dụ, việc gỉảm độ trễ phản hồi cho một end-point nhất định có thể dẫn tới các vấn đề về tăng thông lượng và dung lượng xa hơn trong luồng request, làm ảnh hưởng tới một hệ thống con hoàn toàn khác.
 
 [The Hype Cycle on Wikipedia](https://en.wikipedia.org/wiki/Hype_cycle)
 
