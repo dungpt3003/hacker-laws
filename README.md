@@ -24,7 +24,7 @@ Tài liệu được dịch từ bản gốc của [Dave Kerr](https://github.co
     - [Lưỡi cạo Hanlon](#l%c6%b0%e1%bb%a1i-c%e1%ba%a1o-hanlon)
     - [Luật Hofstadter](#lu%e1%ba%adt-hofstadter)
     - [Luật Hutber](#lu%e1%ba%adt-hutber)
-    - [The Hype Cycle & Amara's Law](#the-hype-cycle--amaras-law)
+    - [Chu kỳ Kỳ vọng và Luật Amara](#chu-k%e1%bb%b3-k%e1%bb%b3-v%e1%bb%8dng-v%c3%a0-lu%e1%ba%adt-amara)
     - [Hyrum's Law (The Law of Implicit Interfaces)](#hyrums-law-the-law-of-implicit-interfaces)
     - [Kernighan's Law](#kernighans-law)
     - [Metcalfe's Law](#metcalfes-law)
@@ -234,21 +234,20 @@ Luật này gợi ý rằng các cải tiến của một hệ thống sẽ dẫ
 
 Ví dụ, việc gỉảm độ trễ phản hồi cho một end-point nhất định có thể dẫn tới các vấn đề về tăng thông lượng và dung lượng xa hơn trong luồng request, làm ảnh hưởng tới một hệ thống con hoàn toàn khác.
 
-### The Hype Cycle & Amara's Law
+### Chu kỳ Kỳ vọng và Luật Amara
 
-[The Hype Cycle on Wikipedia](https://en.wikipedia.org/wiki/Hype_cycle)
+[Chu kỳ Kỳ vọng xem tại Wikipedia](https://en.wikipedia.org/wiki/Hype_cycle)
 
-> We tend to overestimate the effect of a technology in the short run and underestimate the effect in the long run.
->
+> Chúng ta thường có xu hướng đánh giá quá cao ảnh hưởng của một công nghệ trong ngắn hạn và coi nhẹ ảnh hưởng của nó trong dài hạn.
 > (Roy Amara)
 
-The Hype Cycle is a visual representation of the excitement and development of technology over time, originally produced by Gartner. It is best shown with a visual:
+Chu kỳ Kỳ vọng là một minh họa trực quan về sự phát triển của một công nghệ cũng như những sự phấn khích bao quanh nó theo thời gian, được tạo ra bởi Gartner (một hãng nghiên cứu ở Mỹ - ND). 
 
 ![The Hype Cycle](./images/gartner_hype_cycle.png)
 
-*(Image Reference: By Jeremykemp at English Wikipedia, CC BY-SA 3.0, https://commons.wikimedia.org/w/index.php?curid=10547051)*
+*(Nguồn ảnh: Bởi Jeremykemp tại Wikipedia tiếng Anh, CC BY-SA 3.0, https://commons.wikimedia.org/w/index.php?curid=10547051)*
 
-In short, this cycle suggests that there is typically a burst of excitement around new technology and its potential impact. Teams often jump into these technologies quickly, and sometimes find themselves disappointed with the results. This might be because the technology is not yet mature enough, or real-world applications are not yet fully realised. After a certain amount of time, the capabilities of the technology increase and practical opportunities to use it increase, and teams can finally become productive. Roy Amara's quote sums this up most succinctly - "We tend to overestimate the effect of a technology in the short run and underestimate in the long run".
+Nói một cách ngắn gọn, chu kỳ này gợi ý rằng thường sẽ có một sự phấn khích lớn xung quanh một công nghệ mới và tiềm năng tác động của nó. Các nhóm thường tiếp cận những công nghệ này một cách nhanh chóng và đôi khi kết quả khiến họ thất vọng. Điều này có thể là do công nghệ chưa đủ "chín", hoặc khả năng ứng dụng vào các vấn đề thực tế của nó chưa được nhìn nhận đầy đủ. Sau một khoảng thời gian nhất định, khi khả năng và cơ hội ứng dụng thực tế của công nghệ đó tăng lên, các nhóm cuối cùng cũng có thể làm việc hiệu quả với nó. Roy Amara tóm tắt điều này một cách ngắn gọn trong trích dẫn - "Chúng ta thường có xu hướng đánh giá quá cao ảnh hưởng của một công nghệ trong ngắn hạn và coi nhẹ ảnh hưởng của nó trong dài hạn."
 
 ### Hyrum's Law (The Law of Implicit Interfaces)
 
