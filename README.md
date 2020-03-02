@@ -24,6 +24,7 @@ Tài liệu được dịch từ bản gốc của [Dave Kerr](https://github.co
     - [Lưỡi cạo Hanlon](#l%c6%b0%e1%bb%a1i-c%e1%ba%a1o-hanlon)
     - [Luật Hofstadter](#lu%e1%ba%adt-hofstadter)
     - [Luật Hutber](#lu%e1%ba%adt-hutber)
+    - [The Hype Cycle & Amara's Law](#the-hype-cycle--amaras-law)
     - [Hyrum's Law (The Law of Implicit Interfaces)](#hyrums-law-the-law-of-implicit-interfaces)
     - [Kernighan's Law](#kernighans-law)
     - [Metcalfe's Law](#metcalfes-law)
@@ -232,6 +233,8 @@ Xem thêm:
 Luật này gợi ý rằng các cải tiến của một hệ thống sẽ dẫn đến sự hỏng hóc ở một số phần, hoặc che giấu sự bất ổn, dẫn tới sự suy giảm chung so với trạng thái hiện tại của hệ thống.
 
 Ví dụ, việc gỉảm độ trễ phản hồi cho một end-point nhất định có thể dẫn tới các vấn đề về tăng thông lượng và dung lượng xa hơn trong luồng request, làm ảnh hưởng tới một hệ thống con hoàn toàn khác.
+
+### The Hype Cycle & Amara's Law
 
 [The Hype Cycle on Wikipedia](https://en.wikipedia.org/wiki/Hype_cycle)
 
