@@ -25,7 +25,7 @@ Tài liệu được dịch từ bản gốc của [Dave Kerr](https://github.co
     - [Luật Hofstadter](#lu%e1%ba%adt-hofstadter)
     - [Luật Hutber](#lu%e1%ba%adt-hutber)
     - [Chu kỳ Kỳ vọng và Luật Amara](#chu-k%e1%bb%b3-k%e1%bb%b3-v%e1%bb%8dng-v%c3%a0-lu%e1%ba%adt-amara)
-    - [Hyrum's Law (The Law of Implicit Interfaces)](#hyrums-law-the-law-of-implicit-interfaces)
+    - [Luật Hyrum (Luật Giao diện ngầm)](#lu%e1%ba%adt-hyrum-lu%e1%ba%adt-giao-di%e1%bb%87n-ng%e1%ba%a7m)
     - [Kernighan's Law](#kernighans-law)
     - [Metcalfe's Law](#metcalfes-law)
     - [Moore's Law](#moores-law)
@@ -249,20 +249,20 @@ Chu kỳ Kỳ vọng là một minh họa trực quan về sự phát triển c�
 
 Nói một cách ngắn gọn, chu kỳ này gợi ý rằng thường sẽ có một sự phấn khích lớn xung quanh một công nghệ mới và tiềm năng tác động của nó. Các nhóm thường tiếp cận những công nghệ này một cách nhanh chóng và đôi khi kết quả khiến họ thất vọng. Điều này có thể là do công nghệ chưa đủ "chín", hoặc khả năng ứng dụng vào các vấn đề thực tế của nó chưa được nhìn nhận đầy đủ. Sau một khoảng thời gian nhất định, khi khả năng và cơ hội ứng dụng thực tế của công nghệ đó tăng lên, các nhóm cuối cùng cũng có thể làm việc hiệu quả với nó. Roy Amara tóm tắt điều này một cách ngắn gọn trong trích dẫn - "Chúng ta thường có xu hướng đánh giá quá cao ảnh hưởng của một công nghệ trong ngắn hạn và coi nhẹ ảnh hưởng của nó trong dài hạn."
 
-### Hyrum's Law (The Law of Implicit Interfaces)
+### Luật Hyrum (Luật Giao diện ngầm)
 
 [Hyrum's Law Online](http://www.hyrumslaw.com/)
 
-> With a sufficient number of users of an API,
-> it does not matter what you promise in the contract:
-> all observable behaviours of your system
-> will be depended on by somebody.
+> Khi số lượng người dùng một API đạt đến một mức nhất định,
+> những điều bạn định nghĩa trong tài liệu sẽ không còn quan trọng nữa:
+> tất cả các hành vi có thể quan sát được của hệ thống
+> sẽ bị phụ thuộc bởi ai đó.
 >
 > (Hyrum Wright)
 
-Hyrum's Law states that when you have a _large enough number of consumers_ of an API, all behaviours of the API (even those not defined as part of a public contract) will eventually come to be depended on by someone. A trivial example may be non-functional elements such as the response time of an API. A more subtle example might be consumers who are relying on applying a regex to an error message to determine the *type* of error of an API. Even if the public contract of the API states nothing about the contents of the message, indicating users should use an associated error code, _some_ users may use the message, and changing the message essentially breaks the API for those users.
+Luật Hyrum chỉ ra rằng khi API của bạn có một số lượng người dùng đủ lớn, tất cả các hành vi của API đó (kể cả những hành vi không được định nghĩa trong tài liệu công khai) cuối cùng sẽ trở nên bị phụ thuộc bởi người nào đó. Một ví dụ đơn giản có thể kể đến là các yếu tố phi chức năng như là thời gian phản hồi của một API. Một ví dụ tinh tế hơn là người dùng dựa vào việc áp dụng một biểu thức chính quy cho thông báo lỗi để xác định *loại* lỗi của một API. Thậm chí nếu tài liệu công khai của API không nói gì về nội dung của thông báo và nói rõ rằng người dùng nên sử dụng mã lỗi, _một vài_ người dùng có thể dùng thông báo và việc thay đổi cái này sẽ phá vỡ API đối với những người dùng đó.
 
-See also:
+Xem thêm:
 
 - [The Law of Leaky Abstractions](#the-law-of-leaky-abstractions)
 - [XKCD 1172](https://xkcd.com/1172/)
