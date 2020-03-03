@@ -26,7 +26,7 @@ Tài liệu được dịch từ bản gốc của [Dave Kerr](https://github.co
     - [Luật Hutber](#lu%e1%ba%adt-hutber)
     - [Chu kỳ Kỳ vọng và Luật Amara](#chu-k%e1%bb%b3-k%e1%bb%b3-v%e1%bb%8dng-v%c3%a0-lu%e1%ba%adt-amara)
     - [Luật Hyrum (Luật Giao diện ngầm)](#lu%e1%ba%adt-hyrum-lu%e1%ba%adt-giao-di%e1%bb%87n-ng%e1%ba%a7m)
-    - [Kernighan's Law](#kernighans-law)
+    - [Luật Kernighan](#lu%e1%ba%adt-kernighan)
     - [Metcalfe's Law](#metcalfes-law)
     - [Moore's Law](#moores-law)
     - [Murphy's Law / Sod's Law](#murphys-law--sods-law)
@@ -267,21 +267,22 @@ Xem thêm:
 - [The Law of Leaky Abstractions](#the-law-of-leaky-abstractions)
 - [XKCD 1172](https://xkcd.com/1172/)
 
-### Kernighan's Law
+### Luật Kernighan
 
-> Debugging is twice as hard as writing the code in the first place. Therefore, if you write the code as cleverly as possible, you are, by definition, not smart enough to debug it.
+> Việc debug khó gấp đôi việc viết mã từ đầu. Vậy nên, nếu bạn viết mã một cách thông minh nhất có thể, thì theo định nghĩa, bạn không đủ thông minh để debug nó. 
 >
 > (Brian Kernighan)
 
-Kernighan's Law is named for [Brian Kernighan](https://en.wikipedia.org/wiki/Brian_Kernighan) and derived from a quote from Kernighan and Plauger's book [The Elements of Programming Style](https://en.wikipedia.org/wiki/The_Elements_of_Programming_Style):
+Luật Kernighan được đặt tên theo [Brian Kernighan](https://en.wikipedia.org/wiki/Brian_Kernighan), bắt nguồn từ một trích dẫn trong cuốn sách [The Elements of Programming Style](https://en.wikipedia.org/wiki/The_Elements_of_Programming_Style) của Kernighan và Plauger: 
 
+> Ai cũng biết từ đầu rằng việc debug khó gấp đôi việc viết một chương trình. Vậy nếu bạn "chỉ" đủ thông minh để viết mã, bạn sẽ debug như thế nào? 
 > Everyone knows that debugging is twice as hard as writing a program in the first place. So if you're as clever as you can be when you write it, how will you ever debug it?
 
-While hyperbolic, Kernighan's Law makes the argument that simple code is to be preferred over complex code, because debugging any issues that arise in complex code may be costly or even infeasible.
+Dù hơi cường điệu, luật Kerighan lập luận rằng mã nguồn đơn giản nên được ưu tiên hơn mã nguồn quá phức tạp, bởi vì việc debug bất kì vấn đề gì phát sinh từ những đoạn mã phức tạp có thể sẽ rất tốn kém hoặc thậm chí là không khả thi.
 
 See also:
 
-- [The KISS Principle](#the-kiss-principle)
+- [Nguyên tắc KISS](#nguy%c3%aan-t%e1%ba%afc-kiss)
 - [The Unix Philosophy](#the-unix-philosophy)
 - [Occam's Razor](#occams-razor)
 
