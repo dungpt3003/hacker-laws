@@ -493,21 +493,21 @@ See also:
 
 Coined by Wil Wheaton (Star Trek: The Next Generation, The Big Bang Theory), this simple, concise, and powerful law aims for an increase in harmony and respect within a professional organization. It can be applied when speaking with coworkers, performing code reviews, countering other points of view, critiquing, and in general, most professional interactions humans have with each other.
 
-## Principles
+## Nguyên tắc
 
-Principles are generally more likely to be guidelines relating to design.
+Các nguyên tắc thường là các hướng dẫn liên quan tới thiết kế.
 
-### The Dilbert Principle
+### Nguyên tắc Dilbert
 
-[The Dilbert Principle on Wikipedia](https://en.wikipedia.org/wiki/Dilbert_principle)
+[Xem nguyên tắc Dilbert tại Wikipedia](https://en.wikipedia.org/wiki/Dilbert_principle)
 
-> Companies tend to systematically promote incompetent employees to management to get them out of the workflow.
+> Các công ty có xu hướng thăng cấp một cách có hệ thống các nhân viên không đủ năng lực vào vị trí quản lý để đưa họ ra khỏi quy trình làm việc
 >
 > _Scott Adams_
 
-A management concept developed by Scott Adams (creator of the Dilbert comic strip), the Dilbert Principle is inspired by [The Peter Principle](#the-peter-principle). Under the Dilbert Principle, employees who were never competent are promoted to management in order to limit the damage they can do. Adams first explained the principle in a 1995 Wall Street Journal article, and expanded upon it in his 1996 business book, [The Dilbert Principle](#reading-list).
+Một khái niệm quản lý được phát triển bởi Scott Adams (tác giả của truyện tranh Dilbert), Nguyên tắc Dilbert được lấy cảm hứng từ [Nguyên tắc Peter](#the-peter-principle). Theo Nguyên tắc Dilbert, những nhân viên không bao giờ có năng lực được thăng chức lên làm quản lý nhằm hạn chế thiệt hại mà họ có thể gây ra. Admas đã giải thích nguyên lý lần đầu tiên tại một bài báo Phố Wall (Wall Street Journal) vào năm 1995, và đã mở rộng nó trong cuốn sách kinh doanh năm 1996 của ông, [The Dilbert Principle](#reading-list)
 
-See Also:
+Xem thêm:
 
 - [The Peter Principle](#the-peter-principle)
 - [Putt's Law](#putts-law)
