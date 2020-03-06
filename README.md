@@ -27,7 +27,7 @@ Tài liệu được dịch từ bản gốc của [Dave Kerr](https://github.co
     - [Chu kỳ Kỳ vọng và Luật Amara](#chu-k%e1%bb%b3-k%e1%bb%b3-v%e1%bb%8dng-v%c3%a0-lu%e1%ba%adt-amara)
     - [Luật Hyrum (Luật Giao diện ngầm)](#lu%e1%ba%adt-hyrum-lu%e1%ba%adt-giao-di%e1%bb%87n-ng%e1%ba%a7m)
     - [Luật Kernighan](#lu%e1%ba%adt-kernighan)
-    - [Metcalfe's Law](#metcalfes-law)
+    - [Luật Metcalfe](#lu%e1%ba%adt-metcalfe)
     - [Moore's Law](#moores-law)
     - [Murphy's Law / Sod's Law](#murphys-law--sods-law)
     - [Occam's Razor](#occams-razor)
@@ -42,8 +42,8 @@ Tài liệu được dịch từ bản gốc của [Dave Kerr](https://github.co
     - [Mô hình Spotify](#m%c3%b4-h%c3%acnh-spotify)
     - [Wadler's Law](#wadlers-law)
     - [Wheaton's Law](#wheatons-law)
-  - [Principles](#principles)
-    - [The Dilbert Principle](#the-dilbert-principle)
+  - [Nguyên tắc](#nguy%c3%aan-t%e1%ba%afc)
+    - [Nguyên tắc Dilbert](#nguy%c3%aan-t%e1%ba%afc-dilbert)
     - [The Pareto Principle (The 80/20 Rule)](#the-pareto-principle-the-8020-rule)
     - [The Peter Principle](#the-peter-principle)
     - [The Robustness Principle (Postel's Law)](#the-robustness-principle-postels-law)
@@ -276,7 +276,6 @@ Xem thêm:
 Luật Kernighan được đặt tên theo [Brian Kernighan](https://en.wikipedia.org/wiki/Brian_Kernighan), bắt nguồn từ một trích dẫn trong cuốn sách [The Elements of Programming Style](https://en.wikipedia.org/wiki/The_Elements_of_Programming_Style) của Kernighan và Plauger: 
 
 > Ai cũng biết từ đầu rằng việc debug khó gấp đôi việc viết một chương trình. Vậy nếu bạn "chỉ" đủ thông minh để viết mã, bạn sẽ debug như thế nào? 
-> Everyone knows that debugging is twice as hard as writing a program in the first place. So if you're as clever as you can be when you write it, how will you ever debug it?
 
 Dù hơi cường điệu, luật Kerighan lập luận rằng mã nguồn đơn giản nên được ưu tiên hơn mã nguồn quá phức tạp, bởi vì việc debug bất kì vấn đề gì phát sinh từ những đoạn mã phức tạp có thể sẽ rất tốn kém hoặc thậm chí là không khả thi.
 
@@ -286,17 +285,17 @@ See also:
 - [The Unix Philosophy](#the-unix-philosophy)
 - [Occam's Razor](#occams-razor)
 
-### Metcalfe's Law
+### Luật Metcalfe
 
-[Metcalfe's Law on Wikipedia](https://en.wikipedia.org/wiki/Metcalfe's_law)
+[Luật Metcalfe xem tại Wikipedia](https://en.wikipedia.org/wiki/Metcalfe's_law)
 
-> In network theory, the value of a system grows as approximately the square of the number of users of the system.
+> Trong lý thuyết mạng, giá trị của một hệ thống tăng trưởng xấp xỉ bằng bình phương số người dùng của hệ thống đó.
 
-This law is based on the number of possible pairwise connections within a system and is closely related to [Reed's Law](#reeds-law). Odlyzko and others have argued that both Reed's Law and Metcalfe's Law overstate the value of the system by not accounting for the limits of human cognition on network effects; see [Dunbar's Number](#dunbars-number).
+Luật này dựa trên số lượng kết nối chập đôi trong một hệ thống và liên hệ mật thiết với [Luật Reed](#reeds-law). Odlyzko và những người khác đã lập luận rằng cả Luật Reed và Luật Metcalfe đều đánh giá quá mức giá trị của một hệ thống bằng việc bỏ qua giới hạn nhận thức của con người trong việc kết nối; xem [Số Dunbar](#s%e1%bb%91-dunbar)
 
 See also:
 - [Reed's Law](#reeds-law)
-- [Dunbar's Number](#dunbars-number)
+- [Số Dunbar](#s%e1%bb%91-dunbar)
 
 ### Moore's Law
 
