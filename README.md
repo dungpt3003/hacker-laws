@@ -505,7 +505,7 @@ Các nguyên tắc thường là các hướng dẫn liên quan tới thiết k�
 >
 > _Scott Adams_
 
-Một khái niệm quản lý được phát triển bởi Scott Adams (tác giả của truyện tranh Dilbert), Nguyên tắc Dilbert được lấy cảm hứng từ [Nguyên tắc Peter](#the-peter-principle). Theo Nguyên tắc Dilbert, những nhân viên không bao giờ có năng lực được thăng chức lên làm quản lý nhằm hạn chế thiệt hại mà họ có thể gây ra. Admas đã giải thích nguyên lý lần đầu tiên tại một bài báo Phố Wall (Wall Street Journal) vào năm 1995, và đã mở rộng nó trong cuốn sách kinh doanh năm 1996 của ông, [The Dilbert Principle](#reading-list)
+Một khái niệm quản lý được phát triển bởi Scott Adams (tác giả của truyện tranh Dilbert), Nguyên tắc Dilbert được lấy cảm hứng từ [Nguyên tắc Peter](#the-peter-principle). Theo Nguyên tắc Dilbert, những nhân viên không có đủ năng lực thường được thăng chức lên làm quản lý nhằm hạn chế thiệt hại mà họ có thể gây ra. Adams đã giải thích nguyên lý lần đầu tiên tại một bài báo Phố Wall (Wall Street Journal) vào năm 1995, và đã mở rộng nó trong cuốn sách kinh doanh năm 1996 của ông, [The Dilbert Principle](#reading-list)
 
 Xem thêm:
 
