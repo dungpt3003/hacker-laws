@@ -28,7 +28,7 @@ Tài liệu được dịch từ bản gốc của [Dave Kerr](https://github.co
     - [Luật Hyrum (Luật Giao diện ngầm)](#lu%e1%ba%adt-hyrum-lu%e1%ba%adt-giao-di%e1%bb%87n-ng%e1%ba%a7m)
     - [Luật Kernighan](#lu%e1%ba%adt-kernighan)
     - [Luật Metcalfe](#lu%e1%ba%adt-metcalfe)
-    - [Moore's Law](#moores-law)
+    - [Luật Moore](#lu%e1%ba%adt-moore)
     - [Murphy's Law / Sod's Law](#murphys-law--sods-law)
     - [Occam's Razor](#occams-razor)
     - [Parkinson's Law](#parkinsons-law)
@@ -297,13 +297,13 @@ See also:
 - [Reed's Law](#reeds-law)
 - [Số Dunbar](#s%e1%bb%91-dunbar)
 
-### Moore's Law
+### Luật Moore
 
-[Moore's Law on Wikipedia](https://en.wikipedia.org/wiki/Moore%27s_law)
+[Luật Moore xem tại Wikipedia](https://en.wikipedia.org/wiki/Moore%27s_law)
 
-> The number of transistors in an integrated circuit doubles approximately every two years.
+> Số lượng bán dẫn trong một mạch tích hợp sẽ tăng lên gấp đôi sau mỗi hai năm.
 
-Often used to illustrate the sheer speed at which semiconductor and chip technology has improved, Moore's prediction has proven to be highly accurate over from the 1970s to the late 2000s. In more recent years, the trend has changed slightly, partly due to [physical limitations on the degree to which components can be miniaturised](https://en.wikipedia.org/wiki/Quantum_tunnelling). However, advancements in parallelisation, and potentially revolutionary changes in semiconductor technology and quantum computing may mean that Moore's Law could continue to hold true for decades to come.
+Thường được sử dụng để minh hoạ tốc độ phát triển tuyệt đối của công nghệ chip và bán dẫn, dự đoán của Moore đã được chứng minh là có độ chính xác cao từ những năm 70 của thế kỉ 20 cho tới những năm 2000. Trong những năm gần đây, xu hướng có thay đổi một chút, một phần là do [giới hạn vật lý về mức độ thu nhỏ của các thành phần](https://en.wikipedia.org/wiki/Quantum_tunnelling). Tuy nhiên, những tiến bộ trong tính toán song song và những thay đổi tiềm năng mang tính cách mạng trong công nghệ bán dẫn và điện toán lượng tử có thể giữ nguyên tính đúng đắn của luật Moore trong nhiều thập kỉ nữa.
 
 ### Murphy's Law / Sod's Law
 
