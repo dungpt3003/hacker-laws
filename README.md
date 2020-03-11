@@ -21,7 +21,7 @@ Tài liệu được dịch từ bản gốc của [Dave Kerr](https://github.co
     - [Số Dunbar](#s%e1%bb%91-dunbar)
     - [Luật Gall](#lu%e1%ba%adt-gall)
     - [Luật Goodhart](#lu%e1%ba%adt-goodhart)
-    - [Lưỡi cạo Hanlon](#l%c6%b0%e1%bb%a1i-c%e1%ba%a1o-hanlon)
+    - [Dao cạo Hanlon](#dao-c%e1%ba%a1o-hanlon)
     - [Luật Hofstadter](#lu%e1%ba%adt-hofstadter)
     - [Luật Hutber](#lu%e1%ba%adt-hutber)
     - [Chu kỳ Kỳ vọng và Luật Amara](#chu-k%e1%bb%b3-k%e1%bb%b3-v%e1%bb%8dng-v%c3%a0-lu%e1%ba%adt-amara)
@@ -30,7 +30,7 @@ Tài liệu được dịch từ bản gốc của [Dave Kerr](https://github.co
     - [Luật Metcalfe](#lu%e1%ba%adt-metcalfe)
     - [Luật Moore](#lu%e1%ba%adt-moore)
     - [Luật Murphy / Luật Sod](#lu%e1%ba%adt-murphy--lu%e1%ba%adt-sod)
-    - [Occam's Razor](#occams-razor)
+    - [Dao cạo Occam](#dao-c%e1%ba%a1o-occam)
     - [Parkinson's Law](#parkinsons-law)
     - [Premature Optimization Effect](#premature-optimization-effect)
     - [Putt's Law](#putts-law)
@@ -196,9 +196,9 @@ Xem thêm:
 - [Goodhart’s Law: How Measuring The Wrong Things Drive Immoral Behaviour](https://coffeeandjunk.com/goodharts-campbells-law/)
 - [Dilbert on bug-free software](https://dilbert.com/strip/1995-11-13)
 
-### Lưỡi cạo Hanlon
+### Dao cạo Hanlon
 
-[Lưỡi cạo Hanlon xem tại Wikipedia](https://en.wikipedia.org/wiki/Hanlon%27s_razor)
+[Dao cạo Hanlon xem tại Wikipedia](https://en.wikipedia.org/wiki/Hanlon%27s_razor)
 
 > Đừng vội vã gán ý đồ xấu cho một hiện tượng trong khi có thể giải thích một cách hợp lí rằng đó là do sự thiếu hiểu biết.
 >
@@ -324,24 +324,24 @@ Xem thêm:
 - [Thiên kiến xác nhận](#TODO)
 - [Thiên kiến lựa chọn](#TODO)
 
-### Occam's Razor
+### Dao cạo Occam
 
-[Occam's Razor on Wikipedia](https://en.wikipedia.org/wiki/Occam's_razor)
+[Dao cạo Occam xem tại Wikipedia](https://vi.wikipedia.org/wiki/Dao_c%E1%BA%A1o_Ockham)
 
-> Entities should not be multiplied without necessity.
+> Các thực thể không nên bị phức tạp hóa một cách không cần thiết.
 >
-> William of Ockham
+> William xứ Occam
 
-Occam's razor says that among several possible solutions, the most likely solution is the one with the least number of concepts and assumptions. This solution is the simplest and solves only the given problem, without introducing accidental complexity and possible negative consequences.
+Dao cạo Occam cho rằng trong số những giải pháp khả thi, giải pháp hữu ích nhất thường là giải pháp cần tới ít khái niệm và giả định nhất. Giải pháp này là giải pháp đơn giản nhất và giải quyết đúng bài toán được đặt ra mà không dẫn tới những sự phức tạp ngẫu nhiên hay những hậu quả tiêu cực có thể có.
 
-See also:
+Xem thêm:
 
 - [YAGNI](#yagni)
-- [No Silver Bullet: Accidental Complexity and Essential Complexity](https://en.wikipedia.org/wiki/No_Silver_Bullet)
+- [Không có viên đạn bạc: Sự phức tạp ngẫu nhiên và tất nhiên](https://en.wikipedia.org/wiki/No_Silver_Bullet)
 
-Example:
+Ví dụ:
 
-- [Lean Software Development: Eliminate Waste](https://en.wikipedia.org/wiki/Lean_software_development#Eliminate_waste)
+- [Phát triển phần mềm tinh gọn: Loại bỏ dư thừa](https://en.wikipedia.org/wiki/Lean_software_development#Eliminate_waste)
 
 ### Parkinson's Law
 
