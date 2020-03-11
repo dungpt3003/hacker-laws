@@ -29,7 +29,7 @@ Tài liệu được dịch từ bản gốc của [Dave Kerr](https://github.co
     - [Luật Kernighan](#lu%e1%ba%adt-kernighan)
     - [Luật Metcalfe](#lu%e1%ba%adt-metcalfe)
     - [Luật Moore](#lu%e1%ba%adt-moore)
-    - [Murphy's Law / Sod's Law](#murphys-law--sods-law)
+    - [Luật Murphy / Luật Sod](#lu%e1%ba%adt-murphy--lu%e1%ba%adt-sod)
     - [Occam's Razor](#occams-razor)
     - [Parkinson's Law](#parkinsons-law)
     - [Premature Optimization Effect](#premature-optimization-effect)
@@ -305,24 +305,24 @@ See also:
 
 Thường được sử dụng để minh hoạ tốc độ phát triển tuyệt đối của công nghệ chip và bán dẫn, dự đoán của Moore đã được chứng minh là có độ chính xác cao từ những năm 70 của thế kỉ 20 cho tới những năm 2000. Trong những năm gần đây, xu hướng có thay đổi một chút, một phần là do [giới hạn vật lý về mức độ thu nhỏ của các thành phần](https://en.wikipedia.org/wiki/Quantum_tunnelling). Tuy nhiên, những tiến bộ trong tính toán song song và những thay đổi tiềm năng mang tính cách mạng trong công nghệ bán dẫn và điện toán lượng tử có thể giữ nguyên tính đúng đắn của luật Moore trong nhiều thập kỉ nữa.
 
-### Murphy's Law / Sod's Law
+### Luật Murphy / Luật Sod
 
-[Murphy's Law on Wikipedia](https://en.wikipedia.org/wiki/Murphy%27s_law)
+[Luật Murphy xem tại Wikipedia](https://en.wikipedia.org/wiki/Murphy%27s_law)
 
-> Anything that can go wrong will go wrong.
+> Bất cứ thứ gì có thể sai thì sẽ sai.
 
-Related to [Edward A. Murphy, Jr](https://en.wikipedia.org/wiki/Edward_A._Murphy_Jr.) _Murphy's Law_ states that if a thing can go wrong, it will go wrong.
+Liên quan tới [Edward A. Murphy, Jr](https://en.wikipedia.org/wiki/Edward_A._Murphy_Jr.) _Luật Murphy_ khẳng định rằng nếu điều gì đó có khả năng sai, nó sẽ sai.
 
-This is a common adage among developers. Sometimes the unexpected happens when developing, testing or even in production. This can also be related to the (more common in British English) _Sod's Law_:
+Đây là một ngạn ngữ phổ biến trong cộng đồng các nhà phát triển. Đôi khi một vài điều bất ngờ xảy ra trong quá trình phát triển, kiểm thử hoặc thậm chí là trên môi trường sản phẩm. Luật này còn liên quan tới một luật phổ biến hơn trong tiếng Anh-Anh là _Luật Sod_:
 
-> If something can go wrong, it will, at the worst possible time.
+> Nếu điều gì đó có thể sai, nó sẽ sai, vào thời điểm tệ nhất có thể.
 
-These 'laws' are generally used in a comic sense. However, phenomena such as [_Confirmation Bias_](#TODO) and [_Selection Bias_](#TODO) can lead people to perhaps over-emphasise these laws (the majority of times when things work, they go unnoticed, failures however are more noticeable and draw more discussion).
+Những 'luật' này thường được sử dụng theo nghĩa châm biếm. Tuy nhiên, các hiện tượng như [Thiên kiến xác nhận](#TODO) hay [_Thiên kiến lựa chọn_](#TODO) có thể khiến mọi người quá nhấn mạnh tầm quan trọng của chúng (khi mọi thứ hoạt động bình thường, chúng thường không được chú ý, còn các lỗi thì được chú ý và đem ra thảo luận nhiều hơn).
 
-See Also:
+Xem thêm:
 
-- [Confirmation Bias](#TODO)
-- [Selection Bias](#TODO)
+- [Thiên kiến xác nhận](#TODO)
+- [Thiên kiến lựa chọn](#TODO)
 
 ### Occam's Razor
 
