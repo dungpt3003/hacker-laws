@@ -347,15 +347,15 @@ Ví dụ:
 
 [Parkinson's Law on Wikipedia](https://en.wikipedia.org/wiki/Parkinson%27s_law)
 
-> Work expands so as to fill the time available for its completion.
+> Công việc luôn tự mở rộng ra để chiếm đủ thời gian được ấn định cho nó.
 
-In its original context, this Law was based on studies of bureaucracies. It may be pessimistically applied to software development initiatives, the theory being that teams will be inefficient until deadlines near, then rush to complete work by the deadline, thus making the actual deadline somewhat arbitrary.
+Trong bối cảnh ban đầu, luật này được dựa trên nghiên cứu trên các cơ quan hành chính. Nó có thể được áp dụng một cách bi quan vào quá trình phát triển phần mềm, rằng một nhóm sẽ làm việc thiếu hiệu quả cho đến khi thời hạn đến gần, sau đó vội vã hoàn thành công việc trước thời hạn, làm cho thời hạn thực tế trở nên tuỳ tiện.
 
-If this law were combined with [Hofstadter's Law](#hofstadters-law), an even more pessimistic viewpoint is reached - work will expand to fill the time available for its completion and *still take longer than expected*.
+Nếu kết hợp luật này với [Luật Hofstadter](#lu%e1%ba%adt-hofstadter), thậm chí chúng ta còn có một góc nhìn bi quan hơn - Công việc luôn tự mở rộng ra để chiếm đủ thời gian được ấn định cho nó và vẫn *mất nhiều thời gian hơn dự kiến*.
 
-See also:
+Xem thêm:
 
-- [Hofstadter's Law](#hofstadters-law)
+- [Luật Hofstadter](#lu%e1%ba%adt-hofstadter)
 
 ### Premature Optimization Effect
 
