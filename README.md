@@ -445,13 +445,13 @@ The common fictional example used is that of a committee approving plans for nuc
 
 The fictional example above led to the usage of the term 'Bike Shedding' as an expression for wasting time on trivial details. An alternative term is 'Yak Shaving'.
 
-### Triểt lý Unix
+### Triết lý Unix
 
 [Xem Triết lý Unix tại Wikipedia](https://en.wikipedia.org/wiki/Unix_philosophy)
 
-Triết lý Unix nói rằng các thành phần phần mềm nên nhỏ, và tập trung làm tốt một việc cụ thể. Điều này giúp việc xây dựng các hệ thồng dễ dàng bằng cách kết hợp các đơn vị nhỏ, đơn giản, được xác định rõ ràng, thay vì sử dụng các chương trình lớn, phức tạp và đa mục đích.
+Triết lý Unix nói rằng các thành phần phần mềm nên nhỏ gọn, và tập trung làm tốt một việc cụ thể. Điều này giúp việc xây dựng các hệ thống dễ dàng bằng cách kết hợp các đơn vị nhỏ, đơn giản, được định nghĩa rõ ràng, thay vì sử dụng các chương trình lớn, phức tạp và đa mục đích.
 
-Thực tiễn hiện đại như 'Kiến trúc Microservice' có thể coi là một ứng dụng của luật này, trong đó các dịch vụ được thiết kế nhỏ, tập trung làm một việc cụ thể, cho phép hành vi phức tạp được tạo thành từ các khối xây dựng đơn giản.
+Các mô hình hiện đại như 'Kiến trúc Microservice' có thể coi là một ứng dụng của luật này, trong đó các dịch vụ được thiết kế nhỏ gọn, tập trung làm một việc cụ thể, cho phép hành vi phức tạp được tạo thành từ các khối xây dựng đơn giản.
 
 ### Mô hình Spotify
 
