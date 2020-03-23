@@ -33,7 +33,7 @@ Tài liệu được dịch từ bản gốc của [Dave Kerr](https://github.co
     - [Dao cạo Occam](#dao-c%e1%ba%a1o-occam)
     - [Luật Parkinson](#lu%e1%ba%adt-parkinson)
     - [Hiệu ứng Tối ưu hoá sớm](#hi%e1%bb%87u-%e1%bb%a9ng-t%e1%bb%91i-%c6%b0u-ho%c3%a1-s%e1%bb%9bm)
-    - [Putt's Law](#putts-law)
+    - [Luật Putt](#lu%e1%ba%adt-putt)
     - [Reed's Law](#reeds-law)
     - [The Law of Conservation of Complexity (Tesler's Law)](#the-law-of-conservation-of-complexity-teslers-law)
     - [The Law of Leaky Abstractions](#the-law-of-leaky-abstractions)
@@ -45,7 +45,7 @@ Tài liệu được dịch từ bản gốc của [Dave Kerr](https://github.co
   - [Nguyên tắc](#nguy%c3%aan-t%e1%ba%afc)
     - [Nguyên tắc Dilbert](#nguy%c3%aan-t%e1%ba%afc-dilbert)
     - [The Pareto Principle (The 80/20 Rule)](#the-pareto-principle-the-8020-rule)
-    - [The Peter Principle](#the-peter-principle)
+    - [Nguyên tắc Peter](#nguy%c3%aan-t%e1%ba%afc-peter)
     - [The Robustness Principle (Postel's Law)](#the-robustness-principle-postels-law)
     - [SOLID](#solid)
     - [The Single Responsibility Principle](#the-single-responsibility-principle)
@@ -369,24 +369,22 @@ Trong bài viết [Lập trình có cấu trúc với câu lệnh Go To](http://
 
 Tuy nhiên, _Tối ưu hoá sớm_ (_Premature Optimization_) có thể được định nghĩa (một cách nhẹ nhàng hơn) là tối ưu hoá trước cả khi chúng ta biết rằng mình cần nó.
 
-### Putt's Law
+### Luật Putt
 
-[Putt's Law on Wikipedia](https://en.wikipedia.org/wiki/Putt%27s_Law_and_the_Successful_Technocrat)
+[Luật Putt xem tại Wikipedia](https://en.wikipedia.org/wiki/Putt%27s_Law_and_the_Successful_Technocrat)
 
-> Technology is dominated by two types of people, those who understand what they do not manage and those who manage what they do not understand.
+> Công nghệ bị chi phối bởi hai loại người, những người hiểu những gì họ không quản lí và những người quản lí những gì họ không hiểu.
 
-Putt's Law is often followed by Putt's Corollary:
+Luật Putt thường được theo sau bởi Hệ quả Putt:
 
-> Every technical hierarchy, in time, develops a competence inversion.
+> Mọi hệ thống phân cấp kỹ thuật, theo thời gian, phát triển một sự đảo ngược năng lực.
 
-These statements suggest that due to various selection criteria and trends in how groups organise, there will be a number of skilled people at working levels of a technical organisations, and a number of people in managerial roles who are not aware of the complexities and challenges of the work they are managing. This can be due to phenomena such as [The Peter Principle](#the-peter-principle) or [The Dilbert Principle](#the-dilbert-principle).
+Những mệnh đề này gợi ý rằng do các tiêu chí lựa chọn và xu hướng tổ chức nhóm khác nhau, sẽ có một số người có kĩ năng làm việc ở cấp độ thấp của một tổ chức kĩ thuật, trong khi một số người nắm các vai trò quản lí nhưng không hiểu rõ về mức độ phức tạp và thử thách của công việc mà họ quản trị. Điều này có thể là do các hiện tượng như là [Nguyên tắc Peter](#nguy%c3%aan-t%e1%ba%afc-peter) hay [Nguyên tắc Dilbert](#nguy%c3%aan-t%e1%ba%afc-dilbert).
 
-However, it should be stressed that Laws such as this are vast generalisations and may apply to _some_ types of organisations, and not apply to others.
+Xem thêm:
 
-See also:
-
-- [The Peter Principle](#the-peter-principle)
-- [The Dilbert Principle](#the-dilbert-principle)
+- [Nguyên tắc Peter](#nguy%c3%aan-t%e1%ba%afc-peter)
+- [Nguyên tắc Dilbert](#nguy%c3%aan-t%e1%ba%afc-dilbert)
 
 
 ### Reed's Law
@@ -533,7 +531,7 @@ Real-world examples:
 
 - In 2002 Microsoft reported that by fixing the top 20% of the most-reported bugs, 80% of the related errors and crashes in windows and office would become eliminated ([Reference](https://www.crn.com/news/security/18821726/microsofts-ceo-80-20-rule-applies-to-bugs-not-just-features.htm)).
 
-### The Peter Principle
+### Nguyên tắc Peter
 
 [The Peter Principle on Wikipedia](https://en.wikipedia.org/wiki/Peter_principle)
 
