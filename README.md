@@ -38,7 +38,7 @@ Tài liệu được dịch từ bản gốc của [Dave Kerr](https://github.co
     - [The Law of Conservation of Complexity (Tesler's Law)](#the-law-of-conservation-of-complexity-teslers-law)
     - [The Law of Leaky Abstractions](#the-law-of-leaky-abstractions)
     - [The Law of Triviality](#the-law-of-triviality)
-    - [The Unix Philosophy](#the-unix-philosophy)
+    - [Triết lý Unix](#tri%e1%ba%bft-l%c3%bd-unix)
     - [Mô hình Spotify](#m%c3%b4-h%c3%acnh-spotify)
     - [Wadler's Law](#wadlers-law)
     - [Wheaton's Law](#wheatons-law)
@@ -282,8 +282,8 @@ Dù hơi cường điệu, luật Kerighan lập luận rằng mã nguồn đơn
 See also:
 
 - [Nguyên tắc KISS](#nguy%c3%aan-t%e1%ba%afc-kiss)
-- [The Unix Philosophy](#the-unix-philosophy)
-- [Occam's Razor](#occams-razor)
+- [Triết lý Unix](#tri%e1%ba%bft-l%c3%bd-unix)
+- [Dao cạo Occam](#dao-c%e1%ba%a1o-occam)
 
 ### Luật Metcalfe
 
