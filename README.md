@@ -41,7 +41,7 @@ Tài liệu được dịch từ bản gốc của [Dave Kerr](https://github.co
     - [Triết lý Unix](#tri%e1%ba%bft-l%c3%bd-unix)
     - [Mô hình Spotify](#m%c3%b4-h%c3%acnh-spotify)
     - [Wadler's Law](#wadlers-law)
-    - [Wheaton's Law](#wheatons-law)
+    - [Luật Wheaton](#lu%e1%ba%adt-wheaton)
   - [Nguyên tắc](#nguy%c3%aan-t%e1%ba%afc)
     - [Nguyên tắc Dilbert](#nguy%c3%aan-t%e1%ba%afc-dilbert)
     - [The Pareto Principle (The 80/20 Rule)](#the-pareto-principle-the-8020-rule)
@@ -478,17 +478,17 @@ See also:
 
 - [The Law of Triviality](#the-law-of-triviality)
 
-### Wheaton's Law
+### Luật Wheaton
 
-[The Link](http://www.wheatonslaw.com/)
+[Liên kết](http://www.wheatonslaw.com/)
 
-[The Official Day](https://dontbeadickday.com/)
+[Ngày lễ chính thức](https://dontbeadickday.com/)
 
-> Don't be a dick.
+> Đừng là đồ khốn.
 >
 > _Wil Wheaton_
 
-Coined by Wil Wheaton (Star Trek: The Next Generation, The Big Bang Theory), this simple, concise, and powerful law aims for an increase in harmony and respect within a professional organization. It can be applied when speaking with coworkers, performing code reviews, countering other points of view, critiquing, and in general, most professional interactions humans have with each other.
+Được tạo ra bởi Wil Wheaton (Star Trek: The Next Generation, The Big Bang Theory), điều luật đơn giản, ngắn gọn và mạnh mẽ này nhắm tới việc tăng cường sự hài hoà và sự tôn trọng trong một tổ chức chuyên nghiệp. Nó có thể được áp dụng khi nói chuyện với đồng nghiệp, thực hiện việc đánh giá mã nguồn, tranh cãi về quan điểm, phê bình và nói chung là hầu hết các tương tác giữa người với người trong môi trường chuyên nghiệp.
 
 ## Nguyên tắc
 
