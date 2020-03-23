@@ -31,14 +31,14 @@ Tài liệu được dịch từ bản gốc của [Dave Kerr](https://github.co
     - [Luật Moore](#lu%e1%ba%adt-moore)
     - [Luật Murphy / Luật Sod](#lu%e1%ba%adt-murphy--lu%e1%ba%adt-sod)
     - [Dao cạo Occam](#dao-c%e1%ba%a1o-occam)
-    - [Parkinson's Law](#parkinsons-law)
-    - [Premature Optimization Effect](#premature-optimization-effect)
+    - [Luật Parkinson](#lu%e1%ba%adt-parkinson)
+    - [Hiệu ứng Tối ưu hoá sớm](#hi%e1%bb%87u-%e1%bb%a9ng-t%e1%bb%91i-%c6%b0u-ho%c3%a1-s%e1%bb%9bm)
     - [Putt's Law](#putts-law)
     - [Reed's Law](#reeds-law)
     - [The Law of Conservation of Complexity (Tesler's Law)](#the-law-of-conservation-of-complexity-teslers-law)
     - [The Law of Leaky Abstractions](#the-law-of-leaky-abstractions)
     - [The Law of Triviality](#the-law-of-triviality)
-    - [The Unix Philosophy](#the-unix-philosophy)
+    - [Triết lý Unix](#tri%e1%ba%bft-l%c3%bd-unix)
     - [Mô hình Spotify](#m%c3%b4-h%c3%acnh-spotify)
     - [Wadler's Law](#wadlers-law)
     - [Wheaton's Law](#wheatons-law)
@@ -282,8 +282,8 @@ Dù hơi cường điệu, luật Kerighan lập luận rằng mã nguồn đơn
 See also:
 
 - [Nguyên tắc KISS](#nguy%c3%aan-t%e1%ba%afc-kiss)
-- [The Unix Philosophy](#the-unix-philosophy)
-- [Occam's Razor](#occams-razor)
+- [Triết lý Unix](#tri%e1%ba%bft-l%c3%bd-unix)
+- [Dao cạo Occam](#dao-c%e1%ba%a1o-occam)
 
 ### Luật Metcalfe
 
@@ -343,9 +343,9 @@ Ví dụ:
 
 - [Phát triển phần mềm tinh gọn: Loại bỏ dư thừa](https://en.wikipedia.org/wiki/Lean_software_development#Eliminate_waste)
 
-### Parkinson's Law
+### Luật Parkinson
 
-[Parkinson's Law on Wikipedia](https://en.wikipedia.org/wiki/Parkinson%27s_law)
+[Luật Parkinson xem tại Wikipedia](https://en.wikipedia.org/wiki/Parkinson%27s_law)
 
 > Công việc luôn tự mở rộng ra để chiếm đủ thời gian được ấn định cho nó.
 
@@ -357,17 +357,17 @@ Xem thêm:
 
 - [Luật Hofstadter](#lu%e1%ba%adt-hofstadter)
 
-### Premature Optimization Effect
+### Hiệu ứng Tối ưu hoá sớm
 
-[Premature Optimization on WikiWikiWeb](http://wiki.c2.com/?PrematureOptimization)
+[Hiệu ứng Tối ưu hoá sớm xem tại Wikipedia](http://wiki.c2.com/?PrematureOptimization)
 
-> Premature optimization is the root of all evil.
+> Tối ưu hoá sớm là nguồn gốc của mọi vấn đề.
 >
 > [(Donald Knuth)](https://twitter.com/realdonaldknuth?lang=en)
 
-In Donald Knuth's paper [Structured Programming With Go To Statements](http://wiki.c2.com/?StructuredProgrammingWithGoToStatements), he wrote: "Programmers waste enormous amounts of time thinking about, or worrying about, the speed of noncritical parts of their programs, and these attempts at efficiency actually have a strong negative impact when debugging and maintenance are considered. We should forget about small efficiencies, say about 97% of the time: **premature optimization is the root of all evil**. Yet we should not pass up our opportunities in that critical 3%."
+Trong bài viết [Lập trình có cấu trúc với câu lệnh Go To](http://wiki.c2.com/?StructuredProgrammingWithGoToStatements) của Donald Knuth, ông viết: "Lập trình viên thường lãng phí lượng thời gian khổng lồ suy nghĩ hoặc lo lắng về tốc độ của những phần không quan trọng trong chương trình của họ, và thực tế những nỗ lực cải thiện hiệu năng thường tạo ảnh hưởng tiêu cực không nhỏ khi tính tới việc debug và bảo trì. Chúng ta nên quên đi những cải tiến hiệu năng vụn vặt, hay có thể nói, trong 97% số trường hợp, **tối ưu hoá sớm là nguồn gốc của mọi ấn đề**". Tuy nhiên, chúng ta không nên bỏ qua cơ hội của mình trong 3% quan trọng còn lại.
 
-However, _Premature Optimization_ can be defined (in less loaded terms) as optimizing before we know that we need to.
+Tuy nhiên, _Tối ưu hoá sớm_ (_Premature Optimization_) có thể được định nghĩa (một cách nhẹ nhàng hơn) là tối ưu hoá trước cả khi chúng ta biết rằng mình cần nó.
 
 ### Putt's Law
 
