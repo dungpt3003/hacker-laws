@@ -365,7 +365,7 @@ Xem thêm:
 >
 > [(Donald Knuth)](https://twitter.com/realdonaldknuth?lang=en)
 
-Trong bài viết [Lập trình có cấu trúc với câu lệnh Go To](http://wiki.c2.com/?StructuredProgrammingWithGoToStatements) của Donald Knuth, ông viết: "Lập trình viên thường lãng phí lượng thời gian khổng lồ suy nghĩ hoặc lo lắng về tốc độ của những phần không quan trọng trong chương trình của họ, và thực tế những nỗ lực cải thiện hiệu năng thường tạo ảnh hưởng tiêu cực không nhỏ khi tính tới việc debug và bảo trì. Chúng ta nên quên đi những cải tiến hiệu năng vụn vặt, hay có thể nói, trong 97% số trường hợp, **tối ưu hoá sớm là nguồn gốc của mọi ấn đề**". Tuy nhiên, chúng ta không nên bỏ qua cơ hội của mình trong 3% quan trọng còn lại.
+Trong bài viết [Lập trình có cấu trúc với câu lệnh Go To](http://wiki.c2.com/?StructuredProgrammingWithGoToStatements) của Donald Knuth, ông viết: "Lập trình viên thường lãng phí lượng thời gian khổng lồ suy nghĩ hoặc lo lắng về tốc độ của những phần không quan trọng trong chương trình của họ, và thực tế những nỗ lực cải thiện hiệu năng thường tạo ảnh hưởng tiêu cực không nhỏ khi tính tới việc debug và bảo trì. Chúng ta nên quên đi những cải tiến hiệu năng vụn vặt, hay có thể nói, trong 97% số trường hợp, **tối ưu hoá sớm là nguồn gốc của mọi vấn đề**". Tuy nhiên, chúng ta không nên bỏ qua cơ hội của mình trong 3% quan trọng còn lại.
 
 Tuy nhiên, _Tối ưu hoá sớm_ (_Premature Optimization_) có thể được định nghĩa (một cách nhẹ nhàng hơn) là tối ưu hoá trước cả khi chúng ta biết rằng mình cần nó.
 
