@@ -34,14 +34,14 @@ Tài liệu được dịch từ bản gốc của [Dave Kerr](https://github.co
     - [Luật Parkinson](#lu%e1%ba%adt-parkinson)
     - [Hiệu ứng Tối ưu hoá sớm](#hi%e1%bb%87u-%e1%bb%a9ng-t%e1%bb%91i-%c6%b0u-ho%c3%a1-s%e1%bb%9bm)
     - [Luật Putt](#lu%e1%ba%adt-putt)
-    - [Reed's Law](#reeds-law)
+    - [Luật Reed](#lu%e1%ba%adt-reed)
     - [The Law of Conservation of Complexity (Tesler's Law)](#the-law-of-conservation-of-complexity-teslers-law)
     - [The Law of Leaky Abstractions](#the-law-of-leaky-abstractions)
     - [The Law of Triviality](#the-law-of-triviality)
     - [Triết lý Unix](#tri%e1%ba%bft-l%c3%bd-unix)
     - [Mô hình Spotify](#m%c3%b4-h%c3%acnh-spotify)
     - [Wadler's Law](#wadlers-law)
-    - [Wheaton's Law](#wheatons-law)
+    - [Luật Wheaton](#lu%e1%ba%adt-wheaton)
   - [Nguyên tắc](#nguy%c3%aan-t%e1%ba%afc)
     - [Nguyên tắc Dilbert](#nguy%c3%aan-t%e1%ba%afc-dilbert)
     - [The Pareto Principle (The 80/20 Rule)](#the-pareto-principle-the-8020-rule)
@@ -294,7 +294,7 @@ See also:
 Luật này dựa trên số lượng kết nối chập đôi trong một hệ thống và liên hệ mật thiết với [Luật Reed](#reeds-law). Odlyzko và những người khác đã lập luận rằng cả Luật Reed và Luật Metcalfe đều đánh giá quá mức giá trị của một hệ thống bằng việc bỏ qua giới hạn nhận thức của con người trong việc kết nối; xem [Số Dunbar](#s%e1%bb%91-dunbar)
 
 See also:
-- [Reed's Law](#reeds-law)
+- [Luật Reed](#lu%e1%ba%adt-reed)
 - [Số Dunbar](#s%e1%bb%91-dunbar)
 
 ### Luật Moore
@@ -387,17 +387,17 @@ Xem thêm:
 - [Nguyên tắc Dilbert](#nguy%c3%aan-t%e1%ba%afc-dilbert)
 
 
-### Reed's Law
+### Luật Reed
 
-[Reed's Law on Wikipedia](https://en.wikipedia.org/wiki/Reed's_law)
+[Luật Reed xem tại Wikipedia](https://en.wikipedia.org/wiki/Reed's_law)
 
-> The utility of large networks, particularly social networks, scales exponentially with the size of the network.
+> Tiện ích của một mạng lớn, cụ thể là mạng xã hội, tăng trưởng theo cấp số mũ so với kích thước của mạng.
 
-This law is based on graph theory, where the utility scales as the number of possible sub-groups, which is faster than the number of participants or the number of possible pairwise connections. Odlyzko and others have argued that Reed's Law overstates the utility of the system by not accounting for the limits of human cognition on network effects; see [Dunbar's Number](#dunbars-number).
+Luật này được dựa trên lý thuyết đồ thị, trong đó tiện ích tăng trưởng theo số lượng nhóm con, nhanh hơn số lượng thành viên hay số lượng các kết nối cặp tối đa. Odlyzko và một số người khác lập luận rằng luật Reed đã đánh giá quá mức tiện ích của một hệ thống bằng việc bỏ qua những giới hạn nhận thức của con người đối với các hiệu ứng mạng; tham khảo [Số Dunbar](#s%e1%bb%91-dunbar)
 
-See also:
-- [Metcalfe's Law](#metcalfes-law)
-- [Dunbar's Number](#dunbars-number)
+Xem thêm:
+- [Luật Metcalfe](#lu%e1%ba%adt-metcalfe)
+- [Số Dunbar](#s%e1%bb%91-dunbar)
 
 ### The Law of Conservation of Complexity (Tesler's Law)
 
@@ -478,17 +478,17 @@ See also:
 
 - [The Law of Triviality](#the-law-of-triviality)
 
-### Wheaton's Law
+### Luật Wheaton
 
-[The Link](http://www.wheatonslaw.com/)
+[Liên kết](http://www.wheatonslaw.com/)
 
-[The Official Day](https://dontbeadickday.com/)
+[Ngày lễ chính thức](https://dontbeadickday.com/)
 
-> Don't be a dick.
+> Đừng là đồ khốn.
 >
 > _Wil Wheaton_
 
-Coined by Wil Wheaton (Star Trek: The Next Generation, The Big Bang Theory), this simple, concise, and powerful law aims for an increase in harmony and respect within a professional organization. It can be applied when speaking with coworkers, performing code reviews, countering other points of view, critiquing, and in general, most professional interactions humans have with each other.
+Được tạo ra bởi Wil Wheaton (Star Trek: The Next Generation, The Big Bang Theory), điều luật đơn giản, ngắn gọn và mạnh mẽ này nhắm tới việc tăng cường sự hài hoà và sự tôn trọng trong một tổ chức chuyên nghiệp. Nó có thể được áp dụng khi nói chuyện với đồng nghiệp, thực hiện việc đánh giá mã nguồn, tranh cãi về quan điểm, phê bình và nói chung là hầu hết các tương tác giữa người với người trong môi trường chuyên nghiệp.
 
 ## Nguyên tắc
 
