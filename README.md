@@ -35,7 +35,7 @@ Tài liệu được dịch từ bản gốc của [Dave Kerr](https://github.co
     - [Hiệu ứng Tối ưu hoá sớm](#hi%e1%bb%87u-%e1%bb%a9ng-t%e1%bb%91i-%c6%b0u-ho%c3%a1-s%e1%bb%9bm)
     - [Luật Putt](#lu%e1%ba%adt-putt)
     - [Luật Reed](#lu%e1%ba%adt-reed)
-    - [The Law of Conservation of Complexity (Tesler's Law)](#the-law-of-conservation-of-complexity-teslers-law)
+    - [Định luật Bảo toàn Độ phức tạp (Luật Tesler)](#%c4%90%e1%bb%8bnh-lu%e1%ba%adt-b%e1%ba%a3o-to%c3%a0n-%c4%90%e1%bb%99-ph%e1%bb%a9c-t%e1%ba%a1p-lu%e1%ba%adt-tesler)
     - [The Law of Leaky Abstractions](#the-law-of-leaky-abstractions)
     - [The Law of Triviality](#the-law-of-triviality)
     - [Triết lý Unix](#tri%e1%ba%bft-l%c3%bd-unix)
@@ -399,15 +399,15 @@ Xem thêm:
 - [Luật Metcalfe](#lu%e1%ba%adt-metcalfe)
 - [Số Dunbar](#s%e1%bb%91-dunbar)
 
-### The Law of Conservation of Complexity (Tesler's Law)
+### Định luật Bảo toàn Độ phức tạp (Luật Tesler)
 
-[The Law of Conservation of Complexity on Wikipedia](https://en.wikipedia.org/wiki/Law_of_conservation_of_complexity)
+[Định luật Bảo toàn Độ phức tạp xem tại Wikipedia](https://en.wikipedia.org/wiki/Law_of_conservation_of_complexity)
 
-This law states that there is a certain amount of complexity in a system which cannot be reduced.
+Luật này chỉ ra rằng mỗi hệ thống có một mức độ phức tạp nhất định trong không thể bị loại bỏ.
 
-Some complexity in a system is 'inadvertent'. It is a consequence of poor structure, mistakes, or just bad modeling of a problem to solve. Inadvertent complexity can be reduced (or eliminated). However, some complexity is 'intrinsic' as a consequence of the complexity inherent in the problem being solved. This complexity can be moved, but not eliminated.
+Một vài sự phức tạp trong một hệ thống là do 'vô tình'. Nó là kết quả của một cấu trúc tồi, lỗi, hoặc việc mô hình hoá vấn đề không tốt. Sự phức tạp vô tình có thể bị giảm thiểu hoặc loại bỏ hoàn toàn. Tuy nhiên, một vài sự phức tạp thuộc về 'bản chất', là hệ quả của sự phức tạp vốn có trong vấn đề đang được giải quyết. Sự phức tạp này có thể được chuyển từ phần này qua phần khác, nhưng không thể bị loại bỏ hoàn toàn.
 
-One interesting element to this law is the suggestion that even by simplifying the entire system, the intrinsic complexity is not reduced, it is _moved to the user_, who must behave in a more complex way.
+Một yếu tố thú vị của luật này là ngay cả khi đơn giản hoá toàn bộ hệ thống, sự phức tạp bản chất không bị mất đi, mà được _chuyển sang phía người dùng_, khiến họ phải thao tác phức tạp hơn cần thiết.
 
 ### The Law of Leaky Abstractions
 
