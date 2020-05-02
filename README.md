@@ -37,10 +37,10 @@ Tài liệu được dịch từ bản gốc của [Dave Kerr](https://github.co
     - [Luật Reed](#lu%e1%ba%adt-reed)
     - [Định luật Bảo toàn Độ phức tạp (Luật Tesler)](#%c4%90%e1%bb%8bnh-lu%e1%ba%adt-b%e1%ba%a3o-to%c3%a0n-%c4%90%e1%bb%99-ph%e1%bb%a9c-t%e1%ba%a1p-lu%e1%ba%adt-tesler)
     - [The Law of Leaky Abstractions](#the-law-of-leaky-abstractions)
-    - [The Law of Triviality](#the-law-of-triviality)
+    - [Luật của Sự tầm thường](#lu%e1%ba%adt-c%e1%bb%a7a-s%e1%bb%b1-t%e1%ba%a7m-th%c6%b0%e1%bb%9dng)
     - [Triết lý Unix](#tri%e1%ba%bft-l%c3%bd-unix)
     - [Mô hình Spotify](#m%c3%b4-h%c3%acnh-spotify)
-    - [Wadler's Law](#wadlers-law)
+    - [Luật Wadler](#lu%e1%ba%adt-wadler)
     - [Luật Wheaton](#lu%e1%ba%adt-wheaton)
   - [Nguyên tắc](#nguy%c3%aan-t%e1%ba%afc)
     - [Nguyên tắc Dilbert](#nguy%c3%aan-t%e1%ba%afc-dilbert)
@@ -433,7 +433,7 @@ Real-world examples:
 
 - [Photoshop Slow Startup](https://forums.adobe.com/thread/376152) - an issue I encountered in the past. Photoshop would be slow to startup, sometimes taking minutes. It seems the issue was that on startup it reads some information about the current default printer. However, if that printer is actually a network printer, this could take an extremely long time. The _abstraction_ of a network printer being presented to the system similar to a local printer caused an issue for users in poor connectivity situations.
 
-### The Law of Triviality
+### Luật của Sự tầm thường
 
 [The Law of Triviality on Wikipedia](https://en.wikipedia.org/wiki/Law_of_triviality)
 
@@ -459,24 +459,24 @@ Mô hình Spotify là một cách tiếp cận trong việc xây dựng cấu tr
 
 Mô hình Spotify cũng phổ biến các khái niệm về **Tribes**, **Guilds** hay **Chapters**, là những thành phần khác trong cấu trúc tổ chức của họ.
 
-### Wadler's Law
+### Luật Wadler
 
-[Wadler's Law on wiki.haskell.org](https://wiki.haskell.org/Wadler's_Law)
+[Luật Wadler xem tại wiki.haskell.org](https://wiki.haskell.org/Wadler's_Law)
 
-> In any language design, the total time spent discussing a feature in this list is proportional to two raised to the power of its position.
+> Trong bất kỳ thiết kế ngôn ngữ nào, tổng thời gian dành để thảo luận một tính năng trong danh sách này tỉ lệ thuận theo lũy thừa 2 của vị trí.
 >
-> 0. Semantics
-> 1. Syntax
-> 2. Lexical syntax
-> 3. Lexical syntax of comments
+> 0. Ngữ nghĩa
+> 1. Cú pháp
+> 2. Cú pháp từ vựng
+> 3. Cú pháp từ vựng của bình luận
 >
-> (In short, for every hour spent on semantics, 8 hours will be spent on the syntax of comments).
+> Nói cách khác, với mỗi giờ dành cho ngữ nghĩa, cần 8 giờ dành cho cú pháp từ vựng của bình luận.
 
-Similar to [The Law of Triviality](#the-law-of-triviality), Wadler's Law states what when designing a language, the amount of time spent on language structures is disproportionately high in comparison to the importance of those features.
+Tương tự như [Luật của sự tầm thường](#lu%e1%ba%adt-c%e1%bb%a7a-s%e1%bb%b1-t%e1%ba%a7m-th%c6%b0%e1%bb%9dng), luật Wadler chỉ ra rằng khi thiết kế một ngôn ngữ, lượng thời gian dành cho các cấu trúc của ngôn ngữ không tương xứng với tầm quan trọng của chúng.
 
-See also:
+Xem thêm:
 
-- [The Law of Triviality](#the-law-of-triviality)
+- [Luật của sự tầm thường](#lu%e1%ba%adt-c%e1%bb%a7a-s%e1%bb%b1-t%e1%ba%a7m-th%c6%b0%e1%bb%9dng)
 
 ### Luật Wheaton
 
