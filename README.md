@@ -435,13 +435,13 @@ Real-world examples:
 
 ### Luật của Sự tầm thường
 
-[The Law of Triviality on Wikipedia](https://en.wikipedia.org/wiki/Law_of_triviality)
+[Luật của Sự tầm thường xem tại Wikipedia](https://en.wikipedia.org/wiki/Law_of_triviality)
 
-This law suggests that groups will give far more time and attention to trivial or cosmetic issues rather than serious and substantial ones.
+Luật này gợi ý rằng người ta thường dành quá nhiều thời gian và sự chú ý vào những vấn đề tầm thường hơn là những vấn đề thực sự nghiêm trọng và thiết yếu.
 
-The common fictional example used is that of a committee approving plans for nuclear power plant, who spend the majority of their time discussing the structure of the bike shed, rather than the far more important design for the power plant itself. It can be difficult to give valuable input on discussions about very large, complex topics without a high degree of subject matter expertise or preparation. However, people want to be seen to be contributing valuable input. Hence a tendency to focus too much time on small details, which can be reasoned about easily, but are not necessarily of particular importance.
+Một ví dụ giả tưởng thường được sử dụng là về một hội đồng phê duyệt các kế hoạch cho nhà máy năng lượng hạt nhân, những người dành phần lớn thời gian của họ để thảo luận về kiến trúc của nhà để xe đạp, thay vì vấn đề quan trọng hơn nhiều là thiết kế của nhà máy hạt nhân. Rất khó để đóng góp những ý kiến có giá trị về một vấn đề cực kì phức tạp và rộng lớn mà không có trình độ chuyên môn cao hoặc sự chuẩn bị kĩ càng. Tuy nhiên, người ta thường muốn được nhìn nhận như là có đóng gó. Điều này dẫn tới xu hướng tập trung quá nhiều vào các tiểu tiết, những điều có thể lí giải dễ dàng nhưng không thực sự cần thiết hay quan trọng.
 
-The fictional example above led to the usage of the term 'Bike Shedding' as an expression for wasting time on trivial details. An alternative term is 'Yak Shaving'.
+Ví dụ giả tưởng nói trên dẫn tới khái niệm "Bike Shedding" như là một cách diễn đạt cho việc tốn thời gian vào các tiểu tiết. Một khái niệm tương đương là "Yak-Shaving"
 
 ### Triết lý Unix
 
