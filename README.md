@@ -44,7 +44,7 @@ Tài liệu được dịch từ bản gốc của [Dave Kerr](https://github.co
     - [Luật Wheaton](#lu%e1%ba%adt-wheaton)
   - [Nguyên tắc](#nguy%c3%aan-t%e1%ba%afc)
     - [Nguyên tắc Dilbert](#nguy%c3%aan-t%e1%ba%afc-dilbert)
-    - [The Pareto Principle (The 80/20 Rule)](#the-pareto-principle-the-8020-rule)
+    - [Nguyên tắc Pareto (Quy tắc 80/20)](#nguy%c3%aan-t%e1%ba%afc-pareto-quy-t%e1%ba%afc-8020)
     - [Nguyên tắc Peter](#nguy%c3%aan-t%e1%ba%afc-peter)
     - [The Robustness Principle (Postel's Law)](#the-robustness-principle-postels-law)
     - [SOLID](#solid)
@@ -509,27 +509,27 @@ Xem thêm:
 - [The Peter Principle](#the-peter-principle)
 - [Putt's Law](#putts-law)
 
-### The Pareto Principle (The 80/20 Rule)
+### Nguyên tắc Pareto (Quy tắc 80/20)
 
-[The Pareto Principle on Wikipedia](https://en.wikipedia.org/wiki/Pareto_principle)
+[Nguyên tắc Pareto xem tại Wikipedia](https://en.wikipedia.org/wiki/Pareto_principle)
 
-> Most things in life are not distributed evenly.
+> Hầu hết mọi thứ trong cuộc sống không được phân phối đều.
 
-The Pareto Principle suggests that in some cases, the majority of results come from a minority of inputs:
+Nguyên tắc Pareto gợi ý rằng trong vài trường hợp, một phần lớn kết quả được tạo ra từ một phần nhỏ đầu vào:
 
-- 80% of a certain piece of software can be written in 20% of the total allocated time (conversely, the hardest 20% of the code takes 80% of the time)
-- 20% of the effort produces 80% of the result
-- 20% of the work creates 80% of the revenue
-- 20% of the bugs cause 80% of the crashes
-- 20% of the features cause 80% of the usage
+- 80% thành phần của một phần mềm có thể chỉ được viết trong khoảng 20% lượng thời gian được phân bổ (ngược lại, 20% khó nhất của mã nguồn tiêu tống mất 80% thời gian).
+- 20% công sức tạo ra 80% kết quả.
+- 20% lượng công việc tạo ra 80% doanh thu.
+- 20% số lỗi tạo ra 80% số lần sập chương trình.
+- 20% số tính năng năng chiếm 80% lượng sử dụng.
 
-In the 1940s American-Romanian engineer Dr. Joseph Juran, who is widely credited with being the father of quality control, [began to apply the Pareto principle to quality issues](https://en.wikipedia.org/wiki/Joseph_M._Juran).
+Vào những năm 40 của thế kỉ 20, tiến sĩ, kĩ sư người Mỹ-Rumani Joseph Juran, người được cho là cha đẻ của kiểm soát chất lượng, [bắt đầu áp dụng nguyên tắc Pareto cho các vấn đề chất lượng](https://en.wikipedia.org/wiki/Joseph_M._Juran).
 
-This principle is also known as: The 80/20 Rule, The Law of the Vital Few and The Principle of Factor Sparsity.
+Nguyên tắc này còn được biết tới như là: Quy tắc 80/20, Luật Thiểu số Quan trọng hay Nguyên tắc Nhân tố thưa.
 
-Real-world examples:
+Ví dụ thực tế:
 
-- In 2002 Microsoft reported that by fixing the top 20% of the most-reported bugs, 80% of the related errors and crashes in windows and office would become eliminated ([Reference](https://www.crn.com/news/security/18821726/microsofts-ceo-80-20-rule-applies-to-bugs-not-just-features.htm)).
+- Vào năm 2002, Microsoft thông báo rằng bằng việc sửa 20% số lỗi được báo nhiều nhất, 80% số lỗi và lần sập chương trình trên Windows cũng được loại bỏ.([Xem thêm](https://www.crn.com/news/security/18821726/microsofts-ceo-80-20-rule-applies-to-bugs-not-just-features.htm)).
 
 ### Nguyên tắc Peter
 
