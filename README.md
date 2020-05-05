@@ -413,25 +413,25 @@ Một yếu tố thú vị của luật này là ngay cả khi đơn giản hoá
 
 [The Law of Leaky Abstractions on Joel on Software](https://www.joelonsoftware.com/2002/11/11/the-law-of-leaky-abstractions/)
 
-> All non-trivial abstractions, to some degree, are leaky.
+> Tất cả các khái niệm trừu tượng phức tạp, mở một mức nào đó, đều dễ rò rỉ.
 >
 > ([Joel Spolsky](https://twitter.com/spolsky))
 
-This law states that abstractions, which are generally used in computing to simplify working with complicated systems, will in certain situations 'leak' elements of the underlying system, this making the abstraction behave in an unexpected way.
+Luật này chỉ ra rằng các khái niệm trừu tượng thường được sử dụng trong tính toán để đơn giản hoá việc làm việc với các hệ thống phức tạp sẽ làm 'rò rỉ' các yếu tố cấu thành nên hệ thống. Điều này làm cho các khái niệm trừu tượng này trở nên khó đoán.
 
-An example might be loading a file and reading its contents. The file system APIs are an _abstraction_ of the lower level kernel systems, which are themselves an abstraction over the physical processes relating to changing data on a magnetic platter (or flash memory for an SSD). In most cases, the abstraction of treating a file like a stream of binary data will work. However, for a magnetic drive, reading data sequentially will be *significantly* faster than random access (due to increased overhead of page faults), but for an SSD drive, this overhead will not be present. Underlying details will need to be understood to deal with this case (for example, database index files are structured to reduce the overhead of random access), the abstraction 'leaks' implementation details the developer may need to be aware of.
+Một ví dụ là việc tải một tập tin và đọc nội dung của nó. APIs của hệ thống tệp là một __trừu tượng__ của hệ thống cấp thấp hơn, và hệ thống này cũng chính là một trừu tượng của các tiến trình vật lý liên quan đến việc chuyển đổi dữ liệu trên một đĩa từ (hoặc bộ nhớ flash trong trường hợp ổ SSD). Trong đa số các trường hợp, cách trừu tượng hoá việc xử lí tệp như là một dòng chảy dữ liệu nhị phân sẽ hiệu quả. Tuy nhiên, với một ổ đĩa từ, việc đọc dữ liệu tuần tự sẽ nhanh hơn *một cách đáng kể* so với truy cập ngẫu nhiên (do chi phí lỗi trang tăng). Ngược lại, với ổ SSD, chi phí ngày không tồn tại. Các chi tiết cơ bản sẽ cần được hiểu rõ để xử lí những trường hợp như vậy (ví dụ, các tệp chỉ mục của cơ sở dữ liệu được cấu trúc để giảm chi phí của truy cập ngẫy nhiên). Trừu tượng đã 'làm rò rỉ' chi tiết triển khai mà nhà phát triển có thể cần phải để ý tới.
 
-The example above can become more complex when _more_ abstractions are introduced. The Linux operating system allows files to be accessed over a network but represented locally as 'normal' files. This abstraction will 'leak' if there are network failures. If a developer treats these files as 'normal' files, without considering the fact that they may be subject to network latency and failures, the solutions will be buggy.
+Ví dụ kể trên có thể trở nên phức tạp hơn khi có _nhiều_ trừu tượng hơn. Hệ điều hành Linux cho phép các tệp có được truy xuất được qua mạng nhưng lại được biểu diễn cục bộ như các tệp 'bình thường'. Trừu tượng này sẽ bị 'rò rỉ' nếu như có lỗi mạng. Nếu một nhà phát triển xử lí các tệp này như các tệp 'bình thường' mà không quan tâm đến việc chúng có thể bị phụ thuộc vào độ trễ hay lỗi mạng, các giải pháp sẽ có lỗi.
 
-The article describing the law suggests that an over-reliance on abstractions, combined with a poor understanding of the underlying processes, actually makes dealing with the problem at hand _more_ complex in some cases.
+Bài báo mô tả luật này gợi ý rằng sự phụ thuộc quá mức vào các trừu tượng kết hợp với sự thiếu hiểu biết về các tiến trình bên trong làm cho việc xử lí vấn đề trở nên phức tạp _hơn_ trong một vài trường hợp.
 
-See also:
+Xem thêm:
 
-- [Hyrum's Law](#hyrums-law-the-law-of-implicit-interfaces)
+- [Luật Hyrum](#lu%e1%ba%adt-hyrum-lu%e1%ba%adt-giao-di%e1%bb%87n-ng%e1%ba%a7m)
 
-Real-world examples:
+Ví dụ thực tế:
 
-- [Photoshop Slow Startup](https://forums.adobe.com/thread/376152) - an issue I encountered in the past. Photoshop would be slow to startup, sometimes taking minutes. It seems the issue was that on startup it reads some information about the current default printer. However, if that printer is actually a network printer, this could take an extremely long time. The _abstraction_ of a network printer being presented to the system similar to a local printer caused an issue for users in poor connectivity situations.
+- [Vấn đề khởi động chậm của Photoshop](https://forums.adobe.com/thread/376152) - một vấn đề mà tôi đã gặp trong quá khứ. Photoshop khởi động chậm, đôi khi mất đến vài phút. Có vẻ như vấn đề nằm ở việc trong quá trình khởi độn, Photoshop đọc một số thông tin về máy in mặc định hiện tại. Tuy nhiên, nếu máy in đó là một máy in qua mạng, điều này sẽ rất tốn thời gian. Trong trường hợp này, _trừu tượng_ của một máy in qua mạng được biểu diễn trong hệ thống tương tự như máy in cục bộ gây ra vấn đề cho những người dùng với kết nối kém.
 
 ### Luật của Sự tầm thường
 
@@ -562,7 +562,7 @@ Allowing non-conformant input, in time, may undermine the ability of protocols t
 
 See Also:
 
-- [Hyrum's Law](#hyrums-law-the-law-of-implicit-interfaces)
+- [Luật Hyrum](#lu%e1%ba%adt-hyrum-lu%e1%ba%adt-giao-di%e1%bb%87n-ng%e1%ba%a7m)
 
 
 ### SOLID
