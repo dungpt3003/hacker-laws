@@ -554,11 +554,11 @@ See Also:
 
 > Hãy thận trọng với những gì bạn gửi đi, hãy tự do với những gì bạn nhận được
 
-Thường được áp dụng trong việc phát triển ứng dụng máy chủ, nguyên tắc này nói rằng những gì bạn gửi cho người khác phải tối thiểu và phù hợp nhất có thể, nhưng bạn nên đặt mục tiêu cho phép đầu vào không phù hợp vẫn có thể được xử lý.
+Thường được áp dụng trong việc phát triển ứng dụng máy chủ, nguyên tắc này nói rằng những gì bạn gửi cho người khác phải tối giản và chuẩn chỉnh nhất có thể, nhưng bạn nên đặt mục tiêu cho phép đầu vào không chuẩn vẫn có thể được xử lý.
 
-Mục tiêu của nguyên tắc này là xây dựng các hệ thống mạnh mẽ, vì chúng có thể xử lý các dữ liệu đầu vào kém nếu vẫn có thể hiểu được. Tuy nhiên, vẫn còn tiềm ẩn các vấn đề bảo mật do việc chấp nhận đầu vào không đúng định dạng, đặc biệt nếu việc xử lý đầu vào đó không được kiểm tra tốt.
+Mục tiêu của nguyên tắc này là xây dựng các hệ thống mạnh mẽ, có thể xử lý các dữ liệu đầu vào kém nếu vẫn có thể hiểu được. Tuy nhiên, vẫn còn tiềm ẩn các vấn đề bảo mật do việc chấp nhận đầu vào không đúng định dạng, đặc biệt nếu việc xử lý đầu vào đó không được kiểm tra tốt.
 
-Cho phép dữ liệu đầu vào không phù hợp, theo thời gian, có thể làm suy yếu khả năng phát triển của các giao thức vì người thực hiện cuối cùng sẽ dựa vào sự tự do này để xây dựng các tính năng của họ.
+Việc cho phép dữ liệu đầu vào không chuẩn, theo thời gian, có thể làm suy yếu khả năng phát triển của các giao thức vì người thực hiện cuối cùng sẽ dựa vào sự tự do này để xây dựng các tính năng của họ.
 
 Xem thêm:
 
