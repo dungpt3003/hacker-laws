@@ -548,19 +548,19 @@ See Also:
 - [The Dilbert Principle](#the-dilbert-principle)
 - [Putt's Law](#putts-law)
 
-### The Robustness Principle (Postel's Law)
+### Nguyên tắc Robustness (Postel's Law)
 
-[The Robustness Principle on Wikipedia](https://en.wikipedia.org/wiki/Robustness_principle)
+[Xem Nguyên tắc Robustness tại Wikipedia](https://en.wikipedia.org/wiki/Robustness_principle)
 
-> Be conservative in what you do, be liberal in what you accept from others.
+> Hãy thận trọng với những gì bạn gửi đi, hãy tự do với những gì bạn nhận được
 
-Often applied in server application development, this principle states that what you send to others should be as minimal and conformant as possible, but you should be aim to allow non-conformant input if it can be processed.
+Thường được áp dụng trong việc phát triển ứng dụng máy chủ, nguyên tắc này nói rằng những gì bạn gửi cho người khác phải tối giản và chuẩn chỉnh nhất có thể, nhưng bạn nên đặt mục tiêu cho phép đầu vào không chuẩn vẫn có thể được xử lý.
 
-The goal of this principle is to build systems which are robust, as they can handle poorly formed input if the intent can still be understood. However, there are potentially security implications of accepting malformed input, particularly if the processing of such input is not well tested.
+Mục tiêu của nguyên tắc này là xây dựng các hệ thống mạnh mẽ, có thể xử lý các dữ liệu đầu vào kém nếu vẫn có thể hiểu được. Tuy nhiên, vẫn còn tiềm ẩn các vấn đề bảo mật do việc chấp nhận đầu vào không đúng định dạng, đặc biệt nếu việc xử lý đầu vào đó không được kiểm tra tốt.
 
-Allowing non-conformant input, in time, may undermine the ability of protocols to evolve as implementors will eventually rely on this liberality to build their features.
+Việc cho phép dữ liệu đầu vào không chuẩn, theo thời gian, có thể làm suy yếu khả năng phát triển của các giao thức vì người thực hiện cuối cùng sẽ dựa vào sự tự do này để xây dựng các tính năng của họ.
 
-See Also:
+Xem thêm:
 
 - [Luật Hyrum](#lu%e1%ba%adt-hyrum-lu%e1%ba%adt-giao-di%e1%bb%87n-ng%e1%ba%a7m)
 
